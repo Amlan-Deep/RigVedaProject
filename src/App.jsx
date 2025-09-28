@@ -31,19 +31,52 @@ function App() {
   };
 
   return (
-  <div className="min-h-screen flex items-center justify-center">
-      <LotusChordDiagram 
-        onChordClick={handleChordClick}
-        selectedChord={selectedChord}
-      />
+    <div className="min-h-screen" style={{ backgroundColor: '#ecd6b0', marginTop: '0' }}>
+      <h1
+        style={{
+          fontSize: '3rem',
+          fontWeight: 'bold',
+          marginTop: '0',
+          marginBottom: '0',
+          letterSpacing: '0.05em',
+          color: '#7c4700',
+          textShadow: '0 2px 8px #f6d88a',
+          textAlign: 'center',
+          width: '100%',
+          textDecoration: 'underline',
+          fontFamily: `'Tiro Devanagari Sanskrit', 'Noto Serif', serif`
+        }}
+      >
+        Rig Veda Chakra
+      </h1>
 
-      {/* Components */}
-      <VersePanel
-        isOpen={isVersePanelOpen}
-        onClose={handleCloseVersePanel}
-        selectedData={selectedChord}
-      />
+      {/* Flex row containing diagram and verse panel */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'flex-start',
+          marginTop: '-25rem',   // adjust as needed to move both up
+          marginLeft: '-25rem',  // adjust as needed to move both left
+          width: '100%',
+        }}
+      >
+        <LotusChordDiagram
+          onChordClick={handleChordClick}
+          selectedChord={selectedChord}
+        />
 
+        <div style={{ marginLeft: '2rem', marginTop: '35rem', fontSize: '1.5rem',
+          fontWeight: 'bold', textAlign: 'center', }}>
+          <VersePanel
+            isOpen={isVersePanelOpen}
+            onClose={handleCloseVersePanel}
+            selectedData={selectedChord}
+          />
+        </div>
+      </div>
+
+      {/* Chatbot remains independently rendered */}
       <Chatbot
         isOpen={isChatbotOpen}
         onClose={handleCloseChatbot}
