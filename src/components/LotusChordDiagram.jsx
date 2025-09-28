@@ -7,7 +7,7 @@ import { chordConnections } from '../data/chordConnections';
 
 const LotusChordDiagram = ({ onChordClick, selectedChord }) => {
   const svgRef = useRef();
-  const [dimensions, setDimensions] = useState({ width: 2400, height: 2400 });
+  const [dimensions, setDimensions] = useState({ width: 5000, height: 5000 });
 
   useEffect(() => {
 

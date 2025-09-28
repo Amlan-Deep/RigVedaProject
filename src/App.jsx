@@ -51,23 +51,14 @@ function App() {
       </h1>
 
       {/* Flex row containing diagram and verse panel */}
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'flex-start',
-          marginTop: '-25rem',   // adjust as needed to move both up
-          marginLeft: '-25rem',  // adjust as needed to move both left
-          width: '100%',
-        }}
-      >
-        <LotusChordDiagram
-          onChordClick={handleChordClick}
-          selectedChord={selectedChord}
-        />
-
-        <div style={{ marginLeft: '2rem', marginTop: '35rem', fontSize: '1.5rem',
-          fontWeight: 'bold', textAlign: 'center', }}>
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%' }}>
+        <div style={{ position: 'relative', top: '-400px', left: '-400px' }}>
+          <LotusChordDiagram
+            onChordClick={handleChordClick}
+            selectedChord={selectedChord}
+          />
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '2rem', fontSize: '1.5rem', fontWeight: 'bold', textAlign: 'center', position: 'relative' }}>
           <VersePanel
             isOpen={isVersePanelOpen}
             onClose={handleCloseVersePanel}
