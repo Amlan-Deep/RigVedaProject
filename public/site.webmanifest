@@ -1,0 +1,16 @@
+{
+  "name": "RigVeda Lotus Explorer",
+  "short_name": "RigVeda Explorer",
+  "description": "Explore the divine relationships of Rig Veda hymns through an interactive lotus-shaped chord diagram",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6f2",
+  "theme_color": "#f4c95d",
+  "icons": [
+    {
+      "src": "/lotus.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

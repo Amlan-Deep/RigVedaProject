@@ -1,0 +1,63 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#faf6f2"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="bold" fill="#4a5568">
+    🌸 RigVeda Lotus Explorer
+  </text>
+  
+  <!-- Outer Circle (Deities) -->
+  <g transform="translate(300, 300)">
+    <!-- Deity Petals -->
+    <path d="M0,-200 A200,200 0 0,1 141.4,-141.4 L120,-120 A160,160 0 0,0 0,-160 Z" fill="#eeb8c4" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M141.4,-141.4 A200,200 0 0,1 200,0 L160,0 A160,160 0 0,0 120,-120 Z" fill="#b48dd3" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M200,0 A200,200 0 0,1 141.4,141.4 L120,120 A160,160 0 0,0 160,0 Z" fill="#e6a8c6" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M141.4,141.4 A200,200 0 0,1 0,200 L0,160 A160,160 0 0,0 120,120 Z" fill="#bde0fe" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M0,200 A200,200 0 0,1 -141.4,141.4 L-120,120 A160,160 0 0,0 0,160 Z" fill="#a8e6cf" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M-141.4,141.4 A200,200 0 0,1 -200,0 L-160,0 A160,160 0 0,0 -120,120 Z" fill="#ffd166" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M-200,0 A200,200 0 0,1 -141.4,-141.4 L-120,-120 A160,160 0 0,0 -160,0 Z" fill="#fdcb6e" stroke="#b48dd3" stroke-width="2"/>
+    <path d="M-141.4,-141.4 A200,200 0 0,1 0,-200 L0,-160 A160,160 0 0,0 -120,-120 Z" fill="#e6a8c6" stroke="#b48dd3" stroke-width="2"/>
+    
+    <!-- Inner Circle (Mandalas) -->
+    <circle cx="0" cy="0" r="80" fill="url(#mandalaGradient)" stroke="#e8b42a" stroke-width="3"/>
+    
+    <!-- Sample Chords -->
+    <path d="M0,-80 Q-50,-140 -100,-100 Q-50,-60 0,-80" fill="#e6a8c6" opacity="0.7"/>
+    <path d="M0,-80 Q50,-140 100,-100 Q50,-60 0,-80" fill="#bde0fe" opacity="0.7"/>
+    <path d="M80,0 Q140,50 100,100 Q60,50 80,0" fill="#a8e6cf" opacity="0.7"/>
+    
+    <!-- Center Label -->
+    <text x="0" y="5" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="bold" fill="#8b4513">
+      RigVeda
+    </text>
+    <text x="0" y="18" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#8b4513">
+      Samhita
+    </text>
+    
+    <!-- Deity Labels -->
+    <text x="0" y="-220" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#6b46c1">🔥 Agni</text>
+    <text x="200" y="5" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#6b46c1">⚡ Indra</text>
+    <text x="0" y="230" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#6b46c1">🌿 Soma</text>
+    <text x="-200" y="5" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#6b46c1">🌅 Usha</text>
+    
+    <!-- Mandala Labels -->
+    <text x="0" y="-95" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="bold" fill="#8b4513">🌞</text>
+    <text x="95" y="0" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="bold" fill="#8b4513">🔥</text>
+    <text x="0" y="95" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="bold" fill="#8b4513">⚡</text>
+    <text x="-95" y="0" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="bold" fill="#8b4513">🌅</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="mandalaGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f4c95d"/>
+      <stop offset="100%" stop-color="#e8b42a"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Instructions -->
+  <text x="300" y="550" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#4a5568">
+    Hover petals • Click chords • Explore hymns
+  </text>
+</svg>
