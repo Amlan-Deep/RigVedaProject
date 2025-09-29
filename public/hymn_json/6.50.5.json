@@ -1,0 +1,496 @@
+{
+  "id": "0605005",
+  "index": 4890,
+  "book": 6,
+  "hymn": 50,
+  "stanza": 5,
+  "hymnAbs": 491,
+  "hymnAddressee": "All the Gods",
+  "hymnGroup": "Hymns to All the Gods",
+  "strata": "A",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/218/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "mimyákṣa",
+          "lemma": "√myakṣ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_myakz_6974"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRF",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "yéṣu",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "rodasī́",
+          "lemma": "rodasī́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rodasI_7496"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "nú",
+          "lemma": "nú",
+          "lemmaRefs": [
+            "null",
+            "lemma_nu_5078"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "devī́",
+          "lemma": "devī́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_devI_4486"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "síṣakti",
+          "lemma": "√sac-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sac_9133"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "pūṣā́",
+          "lemma": "pūṣán-",
+          "lemmaRefs": [
+            "null",
+            "lemma_pUzan_5727"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "abhyardhayájvā",
+          "lemma": "abhyardhayájvan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aByarDayajvan_843"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "śrutvā́",
+          "lemma": "√śru- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_Sru_8985"
+          ],
+          "props": {
+            "non-finite": "CVB",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "hávam",
+          "lemma": "háva-",
+          "lemmaRefs": [
+            "null",
+            "lemma_hava_10592"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "marutaḥ",
+          "lemma": "marút-",
+          "lemmaRefs": [
+            "null",
+            "lemma_marut_6679"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ha",
+          "lemma": "ha",
+          "lemmaRefs": [
+            "null",
+            "lemma_ha_10533"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "yāthá",
+          "lemma": "√yā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_yA_7091"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "2",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "bhū́ma +",
+          "lemma": "bhū́man-",
+          "lemmaRefs": [
+            "null",
+            "lemma_BUman_6406"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "rejante",
+          "lemma": "√rej-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rej_7473"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ádhvani",
+          "lemma": "ádhvan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aDvan_383"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "právikte",
+          "lemma": "√vij-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vij_7973"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "local particle": "LP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "mimyákṣa yéṣu rodasī́ nú devī́",
+        "síṣakti pūṣā́ abhyardhayájvā",
+        "śrutvā́ hávam maruto yád dha yāthá",
+        "bhū́mā rejante ádhvani právikte"
+      ],
+      "metricalData": [
+        "LLS LS LSL S LL",
+        "SLS LL LLSLL",
+        "LL SL SSL L S LS",
+        "LL LLL LSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "mimyákṣa yéṣu= rodasī́-_} nú devī́?_",
+        "síṣakti pūṣā́= abhyardhayájvā",
+        "śrutvā́ hávam= marutaḥ yát} ha yāthá",
+        "bhū́mā+ rejante?_= ádhvani} právikte?_"
+      ],
+      "metricalData": [
+        "LLS LS LSL S LL",
+        "SLS LL LLSLL",
+        "LL SL SSL L S LS",
+        "LL LLL LSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "mimyákṣa yéṣu rodasī́ nú devī́",
+        "síṣakti pūṣā́ abhiardhayájvā",
+        "śrutvā́ hávam maruto yád dha yāthá",
+        "bhū́mā rejante ádhvani právikte"
+      ],
+      "metricalData": [
+        "LLS LS LSL S LL",
+        "SLS LL SSLSLL",
+        "LL SL SSL L S LS",
+        "LL LLL LSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "mimyákṣa yéṣu rodasī́ nú devī́ síṣakti pūṣā́ abhyardhayájvā",
+        "śrutvā́ hávam maruto yád dha yāthá bhū́mā rejante ádhvani právikte"
+      ],
+      "metricalData": [
+        "LLS LS LSL S LL SLS LL LLSLL",
+        "LL SL SSL L S LS LL LLL LSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "mimyakṣa yeṣu rodasī nu devī sisakti pūṣā abhyardha-yajvā śrutvā havam marutaḥ yat ha yātha bhūma rejante adhvani pra-vikte"
+      ],
+      "metricalData": [
+        "LLS LS LSL S LL SLS LL LLSLL LL SL SSL L S LS LS LLL LSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "मि॒म्यक्ष॒ येषु॑ रोद॒सी नु दे॒वी सिष॑क्ति पू॒षा अ॑भ्यर्ध॒यज्वा॑",
+        "श्रु॒त्वा हवं॑ मरुतो॒ यद्ध॑ या॒थ भूमा॑ रेजन्ते॒ अध्व॑नि॒ प्रवि॑क्ते"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "An die sich jetzt die Göttin Rodasī angeschlossen hat — Pūṣan gesellt sich dazu als ihr Gegenverehrer. Wenn ihr Marut den Ruf erhöret und kommet, so zittern die Länder auf eurem auserwählten Wege."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Bei denen Rodasi, die Göttin, funkelt, und gern der holde Spender Puschan weilet; Wenn ihr, o Maruts, kommt auf unser Rufen, erbeben auf der schwanken Bahn die Welten."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "To whom the Goddess Rodasî clings closely, whom Pûshan follows bringing ample bounty. What time ye hear our call and come, O Maruts, upon your separate path all creatures tremble."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "parmi lesquels s’est agrégée la déesse Rodasī! Que (les) accompagne Pūṣaṇ, (dieu) recevant un sacrif‌ice distinct!/ Quand, ayant entendu l’appel, ô Marut’s, vous vous mettez en marche, les terres tremblent sur le chemin séparément-choisi (par vous)."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "К которым приникла Родаси-богиня!",
+        "(За ней) следует Пушан, получающий особую жертву.",
+        "Когда же, услышав зов, вы выезжаете, о Маруты,",
+        "Трясутся земли на далеко простирающемся (вашем) пути."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "06.050.05"
+}

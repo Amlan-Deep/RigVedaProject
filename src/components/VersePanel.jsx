@@ -234,10 +234,17 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
               animate={{ opacity: 1, y: 0 }}
               className="space-y-4"
             >
-              <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4" style={{ maxHeight: '60vh', overflow: 'auto', fontSize: '0.95rem', fontFamily: 'monospace', whiteSpace: 'pre-wrap' }}>
-                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Hymn JSON</h4>
-                <pre>{JSON.stringify(currentHymn, null, 2)}</pre>
-              </div>
+              {['version_eichler', 'translation_griffith', 'translation_renou', 'translation_geldner', 'translation_elizarenkova'].map(id => {
+                const obj = currentHymn.versions?.find(v => v.id === id);
+                if (!obj) return null;
+                return (
+                  <div key={id} className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4" style={{ maxHeight: '60vh', overflow: 'auto', fontSize: '1.15rem', fontFamily: 'monospace', whiteSpace: 'pre-wrap', marginBottom: '1rem' }}>
+                    <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline', fontSize: '1.25em' }}>{obj.source || id}</h4>
+                    <div style={{ fontSize: '1.1em' }}><strong>Language:</strong> {obj.language}</div>
+                    <div style={{ fontSize: '1.1em' }}><strong>Form:</strong> <pre style={{ margin: 0, fontSize: '1.1em' }}>{JSON.stringify(obj.form, null, 2)}</pre></div>
+                  </div>
+                );
+              })}
             </motion.div>
           )}
         </div>
