@@ -52,8 +52,8 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
         <div className="sticky top-0 bg-gradient-to-r from-lotus-gold to-lotus-goldDark p-6 text-white flex-shrink-0">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h2 className="text-xl font-bold">{deity.name}</h2>
-              <p className="text-sm opacity-90">{mandala.name}</p>
+        <h2 className="text-xl font-bold" style={{ textDecoration: 'underline' }}>{deity.name}</h2>
+        <p className="text-sm opacity-90" style={{ textDecoration: 'underline' }}>{mandala.name}</p>
             </div>
           </div>
 
@@ -67,24 +67,35 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
         <div className="p-6 space-y-6 overflow-y-auto flex-grow">
           {/* Hymn Navigation */}
           <div className="bg-gray-50 rounded-lg p-4">
-            <h3 className="font-semibold text-gray-800 mb-3 flex items-center">
-              <BookOpen size={16} className="mr-2" />
-              Available Hymns
+            <h3 className="font-semibold text-gray-800 mb-3 flex items-center" style={{ textDecoration: 'underline' }}>              Available Hymns
             </h3>
             <div className="grid grid-cols-2 gap-2">
-              {connection.hymns.map((hymnId) => (
-                <button
-                  key={hymnId}
-                  onClick={() => handleHymnSelect(hymnId)}
-                  className={`p-2 rounded text-sm transition-colors ${
-                    currentHymn && hymns[hymnId] === currentHymn
-                      ? 'bg-lotus-gold text-white'
-                      : 'bg-white hover:bg-gray-100 text-gray-700'
-                  }`}
-                >
-                  {hymnId}
-                </button>
-              ))}
+              <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', gap: '1rem', justifyContent: 'flex-start', alignItems: 'center', marginBottom: '1rem' }}>
+                {connection.hymns.map((hymnId) => (
+                  <button
+                    key={hymnId}
+                    onClick={() => handleHymnSelect(hymnId)}
+                    className={`transition-colors flex items-center justify-center tracking-wide ${
+                      currentHymn && hymns[hymnId] === currentHymn
+                        ? 'bg-lotus-gold text-white border-lotus-goldDark scale-105'
+                        : 'bg-white hover:bg-lotus-gold/20 text-lotus-gold'
+                    }`}
+                    style={{
+                      padding: '1rem 1.75rem',
+                      borderRadius: '1rem',
+                      fontSize: '1.15rem',
+                      fontWeight: 'bold',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                      border: '2px solid #e8b42a',
+                      minWidth: '110px',
+                      maxWidth: '170px',
+                      width: 'auto',
+                    }}
+                  >
+                    {hymnId}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -97,7 +108,7 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
             >
               {/* Sanskrit */}
               <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2">Sanskrit</h4>
+                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Sanskrit</h4>
                 <p className="text-lg leading-relaxed text-gray-800 font-serif">
                   {currentHymn.sanskrit}
                 </p>
@@ -105,7 +116,7 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
 
               {/* Transliteration */}
               <div className="bg-gray-50 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2">Transliteration</h4>
+                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Transliteration</h4>
                 <p className="text-sm leading-relaxed text-gray-700 italic">
                   {currentHymn.transliteration}
                 </p>
@@ -113,7 +124,7 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
 
               {/* Translation */}
               <div className="bg-gradient-to-r from-lotus-gold/10 to-lotus-saffron/10 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2">Translation</h4>
+                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Translation</h4>
                 <p className="text-sm leading-relaxed text-gray-800">
                   {currentHymn.translation}
                 </p>
@@ -121,7 +132,7 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
 
               {/* Meaning */}
               <div className="bg-blue-50 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2">Meaning</h4>
+                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Meaning</h4>
                 <p className="text-sm leading-relaxed text-gray-700">
                   {currentHymn.meaning}
                 </p>
