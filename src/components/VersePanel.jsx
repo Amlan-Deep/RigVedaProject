@@ -43,9 +43,33 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
     }
   };
 
-  const handleHymnSelect = (hymnId) => {
-    setCurrentHymn(hymns[hymnId]);
-    setIsPlaying(false);
+  // Convert hymnId (e.g. 9.1.2) to API format (e.g. 0900102)
+  const hymnIdToApiId = (hymnId) => {
+    const parts = hymnId.split('.');
+    if (parts.length !== 3) return hymnId;
+    return parts[0].padStart(2, '0') + parts[1].padStart(3, '0') + parts[2].padStart(2, '0');
+  };
+
+  const handleHymnSelect = async (hymnId) => {
+    setLoading(true);
+    setError(null);
+    setCurrentHymn(null);
+    try {
+      // Step 1: Ask backend to fetch and save JSON (use full URL)
+      const saveRes = await fetch(`http://localhost:3001/fetch-hymn/${hymnId}`, { method: 'POST' });
+      if (!saveRes.ok) throw new Error('Backend failed to save JSON');
+
+      // Step 2: Wait 5 seconds before fetching JSON from public/hymn_json
+      await new Promise(res => setTimeout(res, 5000));
+      const jsonRes = await fetch(`/hymn_json/${hymnId}.json`);
+      if (!jsonRes.ok) throw new Error('Saved JSON not found');
+      const data = await jsonRes.json();
+      setCurrentHymn(data);
+    } catch (err) {
+      setError('Failed to load hymn JSON');
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (!isOpen || !selectedData) return null;
@@ -93,8 +117,8 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
             </h3>
             <div className="grid grid-cols-2 gap-2">
               <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', gap: '1rem', justifyContent: 'flex-start', alignItems: 'center', marginBottom: '1rem' }}>
-                {loading && <span className="text-gray-500">Loading...</span>}
-                {error && <span className="text-red-500">{error}</span>}
+                {loading && <div className="text-gray-500">Loading...</div>}
+                {error && <div className="text-red-500">{error}</div>}
                 {/* Debug output for fetched hymns */}
                 {!loading && !error && (
                   <pre style={{ fontSize: '0.7rem', color: '#888', marginBottom: '0.5rem' }}>
@@ -104,26 +128,7 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
                 {!loading && !error && connection.hymns.map((hymnId) => (
                   <button
                     key={hymnId}
-                    onClick={async () => {
-                      setLoading(true);
-                      setError(null);
-                      try {
-                        const res = await fetch(`http://localhost:3001/fetch-hymn/${hymnId}`, {
-                          method: 'POST',
-                        });
-                        const result = await res.json();
-                        if (result.success) {
-                          setError(null);
-                          alert(`Hymn ${hymnId} saved as JSON!`);
-                        } else {
-                          setError(result.error || 'Failed to save hymn');
-                        }
-                      } catch (err) {
-                        setError('Failed to connect to backend');
-                      } finally {
-                        setLoading(false);
-                      }
-                    }}
+                    onClick={() => handleHymnSelect(hymnId)}
                     className="transition-colors flex items-center justify-center tracking-wide bg-white hover:bg-lotus-gold/20 text-lotus-gold"
                     style={{
                       padding: '1rem 1.75rem',
@@ -220,34 +225,21 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
             </div>
           )}
 
-          {/* Chatbot Integration */}
-          <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4">
-            <h4 className="font-semibold text-lotus-indigo mb-2 flex items-center">
-              <MessageCircle size={16} className="mr-2" />
-              Ask About This Hymn
-            </h4>
-            <p className="text-sm text-gray-600 mb-3">
-              Curious about the symbolism or meaning? Ask our AI guide.
-            </p>
-            <button className="w-full bg-lotus-purple hover:bg-lotus-purple/80 text-white py-2 px-4 rounded-lg transition-colors text-sm">
-              Open Chatbot
-            </button>
-          </div>
-
-          {/* Deity Themes */}
-          <div className="bg-gray-50 rounded-lg p-4">
-            <h4 className="font-semibold text-lotus-indigo mb-2">Themes</h4>
-            <div className="flex flex-wrap gap-2">
-              {deity.themes.map((theme, index) => (
-                <span
-                  key={index}
-                  className="px-3 py-1 bg-lotus-gold/20 text-lotus-indigo rounded-full text-xs"
-                >
-                  {theme}
-                </span>
-              ))}
-            </div>
-          </div>
+          {/* Current Hymn JSON */}
+          {loading && <div className="text-gray-500">Loading...</div>}
+          {error && <div className="text-red-500">{error}</div>}
+          {currentHymn && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="space-y-4"
+            >
+              <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4" style={{ maxHeight: '60vh', overflow: 'auto', fontSize: '0.95rem', fontFamily: 'monospace', whiteSpace: 'pre-wrap' }}>
+                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Hymn JSON</h4>
+                <pre>{JSON.stringify(currentHymn, null, 2)}</pre>
+              </div>
+            </motion.div>
+          )}
         </div>
       </motion.div>
     </AnimatePresence>

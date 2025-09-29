@@ -1,13 +1,13 @@
 {
-  "id": "0300101",
-  "index": 2435,
-  "book": 3,
+  "id": "0600101",
+  "index": 4368,
+  "book": 6,
   "hymn": 1,
   "stanza": 1,
-  "hymnAbs": 235,
+  "hymnAbs": 442,
   "hymnAddressee": "Agni",
   "hymnGroup": "Hymns to Agni",
-  "strata": "N",
+  "strata": "C",
   "lateAdditions": null,
   "stanzaType": "Triṣṭubh",
   "externalResources": [
@@ -15,21 +15,29 @@
       "label": "Oldenberg (1909)",
       "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
       "references": [
-        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0235"
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0381"
       ]
     },
     {
       "label": "Ludwig (1881)",
       "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
       "references": [
-        "https://archive.org/details/rigvedaoderdiehe04ludw/page/293/mode/1up"
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/343/mode/1up"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/629/mode/1up"
       ]
     },
     {
       "label": "Delbrueck (1888)",
       "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
       "references": [
-        "https://archive.org/details/syntaktischefor03windgoog/page/411/mode/1up"
+        "https://archive.org/details/syntaktischefor03windgoog/page/89/mode/1up",
+        "https://archive.org/details/syntaktischefor03windgoog/page/412/mode/1up"
       ]
     }
   ],
@@ -41,71 +49,34 @@
       "grammarData": [
         {
           "index": 1,
-          "form": "sómasya",
-          "lemma": "sóma-",
+          "form": "tvám",
+          "lemma": "tvám",
           "lemmaRefs": [
             "null",
-            "lemma_soma_10160"
+            "lemma_tva_3983"
           ],
           "props": {
-            "case": "GEN",
-            "gender": "M",
-            "number": "SG",
-            "lemma type": "nominal stem",
-            "position": "intermediate"
-          }
-        },
-        {
-          "index": 2,
-          "form": "mā",
-          "lemma": "ahám",
-          "lemmaRefs": [
-            "null",
-            "lemma_aham_1404"
-          ],
-          "props": {
-            "case": "ACC",
+            "case": "NOM",
             "number": "SG",
             "lemma type": "pronoun",
             "position": "intermediate"
           }
         },
         {
-          "index": 3,
-          "form": "tavásam",
-          "lemma": "tavás-",
+          "index": 2,
+          "form": "hí",
+          "lemma": "hí",
           "lemmaRefs": [
             "null",
-            "lemma_tavas_3713"
+            "lemma_hi_10645"
           ],
           "props": {
-            "case": "ACC",
-            "gender": "M",
-            "number": "SG",
-            "lemma type": "nominal stem",
+            "lemma type": "invariable",
             "position": "intermediate"
           }
         },
         {
-          "index": 4,
-          "form": "vákṣi",
-          "lemma": "√vaś-",
-          "lemmaRefs": [
-            "null",
-            "lemma_vaS_7772"
-          ],
-          "props": {
-            "number": "SG",
-            "person": "2",
-            "mood": "IND",
-            "tense": "PRS",
-            "voice": "ACT",
-            "lemma type": "root",
-            "position": "verse final"
-          }
-        },
-        {
-          "index": 5,
+          "index": 3,
           "form": "agne",
           "lemma": "agní-",
           "lemmaRefs": [
@@ -114,6 +85,38 @@
           ],
           "props": {
             "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "prathamáḥ",
+          "lemma": "prathamá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_praTama_5905"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "manótā",
+          "lemma": "manótar-",
+          "lemmaRefs": [
+            "null",
+            "lemma_manotf_6621"
+          ],
+          "props": {
+            "case": "NOM",
             "gender": "M",
             "number": "SG",
             "lemma type": "nominal stem"
@@ -128,68 +131,83 @@
       "grammarData": [
         {
           "index": 1,
-          "form": "váhnim",
-          "lemma": "váhni-",
+          "form": "asyā́ḥ",
+          "lemma": "ayám",
           "lemmaRefs": [
             "null",
-            "lemma_vahni_7838"
+            "lemma_idam_1696"
           ],
           "props": {
-            "case": "ACC",
-            "gender": "M",
+            "case": "GEN",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "dhiyáḥ",
+          "lemma": "dhī́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_DI_4710"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "F",
             "number": "SG",
             "lemma type": "nominal stem",
             "position": "intermediate"
           }
         },
         {
-          "index": 2,
-          "form": "cakartha",
-          "lemma": "√kr̥-",
+          "index": 3,
+          "form": "ábhavaḥ",
+          "lemma": "√bhū-",
           "lemmaRefs": [
             "null",
-            "lemma_kf_2645"
+            "lemma_BU_6403"
           ],
           "props": {
             "number": "SG",
             "person": "2",
             "mood": "IND",
-            "tense": "PRF",
+            "tense": "IPRF",
             "voice": "ACT",
             "lemma type": "root",
             "position": "intermediate"
           }
         },
         {
-          "index": 3,
-          "form": "vidáthe",
-          "lemma": "vidátha-",
+          "index": 4,
+          "form": "dasma",
+          "lemma": "dasmá-",
           "lemmaRefs": [
             "null",
-            "lemma_vidaTa_8003"
+            "lemma_dasma_4153"
           ],
           "props": {
-            "case": "LOC",
-            "gender": "N",
+            "case": "VOC",
+            "gender": "M",
             "number": "SG",
             "lemma type": "nominal stem",
             "position": "verse final"
           }
         },
         {
-          "index": 4,
-          "form": "yájadhyai",
-          "lemma": "√yaj-",
+          "index": 5,
+          "form": "hótā",
+          "lemma": "hótar-",
           "lemmaRefs": [
             "null",
-            "lemma_yaj_6994"
+            "lemma_hotf_10749"
           ],
           "props": {
-            "case": "DAT",
+            "case": "NOM",
+            "gender": "M",
             "number": "SG",
-            "tense": "PRS",
-            "non-finite": "INF",
-            "lemma type": "root"
+            "lemma type": "nominal stem"
           }
         }
       ]
@@ -201,27 +219,26 @@
       "grammarData": [
         {
           "index": 1,
-          "form": "devā́n",
-          "lemma": "devá-",
+          "form": "tvám",
+          "lemma": "tvám",
           "lemmaRefs": [
             "null",
-            "lemma_deva_4419"
+            "lemma_tva_3983"
           ],
           "props": {
-            "case": "ACC",
-            "gender": "M",
-            "number": "PL",
-            "lemma type": "nominal stem",
+            "case": "NOM",
+            "number": "SG",
+            "lemma type": "pronoun",
             "position": "intermediate"
           }
         },
         {
           "index": 2,
-          "form": "ácha +",
-          "lemma": "ácha",
+          "form": "sīm",
+          "lemma": "sīm",
           "lemmaRefs": [
             "null",
-            "lemma_aCa_160"
+            "lemma_sIm_9697"
           ],
           "props": {
             "lemma type": "invariable",
@@ -230,52 +247,49 @@
         },
         {
           "index": 3,
-          "form": "dī́dyat",
-          "lemma": "√dī- 1",
+          "form": "vr̥ṣan",
+          "lemma": "vŕ̥ṣan-",
           "lemmaRefs": [
             "null",
-            "lemma_dI_4255"
+            "lemma_vfzan_8408"
           ],
           "props": {
-            "case": "NOM",
+            "case": "VOC",
             "gender": "M",
             "number": "SG",
-            "tense": "PRS",
-            "voice": "ACT",
-            "non-finite": "PTCP",
-            "lemma type": "root",
+            "lemma type": "nominal stem",
             "position": "intermediate"
           }
         },
         {
           "index": 4,
-          "form": "yuñjé",
-          "lemma": "√yuj-",
+          "form": "akr̥ṇoḥ",
+          "lemma": "√kr̥-",
           "lemmaRefs": [
             "null",
-            "lemma_yuj_7133"
+            "lemma_kf_2645"
           ],
           "props": {
             "number": "SG",
-            "person": "1",
+            "person": "2",
             "mood": "IND",
-            "tense": "PRS",
-            "voice": "MED",
+            "tense": "IPRF",
+            "voice": "ACT",
             "lemma type": "root",
             "position": "verse final"
           }
         },
         {
           "index": 5,
-          "form": "ádrim",
-          "lemma": "ádri-",
+          "form": "duṣṭárītu",
+          "lemma": "duṣṭárītu-",
           "lemmaRefs": [
             "null",
-            "lemma_adri_320"
+            "lemma_duzwarItu_4369"
           ],
           "props": {
             "case": "ACC",
-            "gender": "M",
+            "gender": "N",
             "number": "SG",
             "lemma type": "nominal stem"
           }
@@ -289,34 +303,31 @@
       "grammarData": [
         {
           "index": 1,
-          "form": "śamāyé",
-          "lemma": "√śamāy-",
+          "form": "sáhaḥ",
+          "lemma": "sáhas-",
           "lemmaRefs": [
             "null",
-            "lemma_SamAy_8662"
+            "lemma_sahas_9525"
           ],
           "props": {
+            "case": "ACC",
+            "gender": "N",
             "number": "SG",
-            "person": "1",
-            "mood": "IND",
-            "tense": "PRS",
-            "voice": "MED",
-            "secondary conjugation": "DEN",
-            "lemma type": "root",
+            "lemma type": "nominal stem",
             "position": "intermediate"
           }
         },
         {
           "index": 2,
-          "form": "agne",
-          "lemma": "agní-",
+          "form": "víśvasmai",
+          "lemma": "víśva-",
           "lemmaRefs": [
             "null",
-            "lemma_agni_79"
+            "lemma_viSva_8151"
           ],
           "props": {
-            "case": "VOC",
-            "gender": "M",
+            "case": "DAT",
+            "gender": "N",
             "number": "SG",
             "lemma type": "nominal stem",
             "position": "intermediate"
@@ -324,15 +335,15 @@
         },
         {
           "index": 3,
-          "form": "tanvàm",
-          "lemma": "tanū́-",
+          "form": "sáhase",
+          "lemma": "sáhas-",
           "lemmaRefs": [
             "null",
-            "lemma_tanU_3644"
+            "lemma_sahas_9525"
           ],
           "props": {
-            "case": "ACC",
-            "gender": "F",
+            "case": "DAT",
+            "gender": "N",
             "number": "SG",
             "lemma type": "nominal stem",
             "position": "verse final"
@@ -340,18 +351,17 @@
         },
         {
           "index": 4,
-          "form": "juṣasva",
-          "lemma": "√juṣ-",
+          "form": "sáhadhyai",
+          "lemma": "√sah-",
           "lemmaRefs": [
             "null",
-            "lemma_juz_3541"
+            "lemma_sah_9505"
           ],
           "props": {
+            "case": "DAT",
             "number": "SG",
-            "person": "2",
-            "mood": "IMP",
-            "tense": "AOR",
-            "voice": "MED",
+            "tense": "PRS",
+            "non-finite": "INF",
             "lemma type": "root"
           }
         }
@@ -364,16 +374,16 @@
       "source": "Lubotsky (Zurich)",
       "language": "san-Latn-x-ISO-15919",
       "form": [
-        "sómasya mā tavásaṃ vákṣy agne",
-        "váhniṃ cakartha vidáthe yájadhyai",
-        "devā́m̐ áchā dī́dyad yuñjé ádriṃ",
-        "śamāyé agne tanvàṃ juṣasva"
+        "tváṃ hy àgne prathamó manótā-",
+        "-asyā́ dhiyó ábhavo dasma hótā",
+        "tváṃ sīṃ vr̥ṣann akr̥ṇor duṣṭárītu",
+        "sáho víśvasmai sáhase sáhadhyai"
       ],
       "metricalData": [
-        "LLS L SSL L LL",
-        "LL SLS SSL SLL",
-        "LL LL LL LL LL",
-        "SLL LL LL SLS"
+        "L LL SSL SLL",
+        "LL SL SSL LS LL",
+        "L L SL SSL LSLS",
+        "SL LLL SSL SLL"
       ],
       "type": "version",
       "applyKeys": true
@@ -383,16 +393,16 @@
       "source": "Lubotsky",
       "language": "san-Latn-x-ISO-15919",
       "form": [
-        "sómasya mā= tavásam vákṣi agne-_",
-        "váhnim cakartha= vidáthe?_} yájadhyai",
-        "devā́n ácchā+= dī́dyat yuñjé?_ ádrim",
-        "śamāyé?_ agne-_= tanva\\m} juṣasva"
+        "tvám hí agne-_= prathamáḥ} manótā",
+        "asyā́ḥ dhiyáḥ= ábhavaḥ dasma hótā",
+        "tvám sīm vr̥ṣan= akr̥ṇoḥ duṣṭárītu",
+        "sáhaḥ víśvasmai= sáhase-_} sáhadhyai"
       ],
       "metricalData": [
-        "LLS L SSL LS LL",
-        "LL SLS SSL SLL",
-        "LL LL LL LL LL",
-        "SLL LL LL SLS"
+        "L S LL SSL SLL",
+        "LL SS SSL LS LL",
+        "L L SS SSL LSLS",
+        "SL LLL SSL SLL"
       ],
       "type": "version",
       "applyKeys": true
@@ -402,16 +412,16 @@
       "source": "Van Nooten & Holland",
       "language": "san-Latn-x-ISO-15919",
       "form": [
-        "sómasya mā tavásaṁ vákṣi agne",
-        "váhniṁ cakartha vidáthe yájadhyai",
-        "devā́m̐ áchā dī́diyad yuñjé ádriṁ",
-        "śamāyé agne tanúvaṁ juṣasva"
+        "tuváṁ hí agne prathamó manóta",
+        "asyā́ dhiyó ábhavo dasma hótā",
+        "tváṁ sīṁ vr̥ṣann akr̥ṇor duṣṭárītu",
+        "sáho víśvasmai sáhase sáhadhyai"
       ],
       "metricalData": [
-        "LLS L SSL LS LL",
-        "LL SLS SSL SLL",
-        "LL LL LSL LL LL",
-        "SLL LL SSL SLS"
+        "SL S LL SSL SLS",
+        "LL SL SSL LS LL",
+        "L L SL SSL LSLS",
+        "SL LLL SSL SLL"
       ],
       "type": "version",
       "applyKeys": true
@@ -421,12 +431,12 @@
       "source": "Aufrecht",
       "language": "san-Latn-x-ISO-15919",
       "form": [
-        "sómasya mā tavásaṁ vákṣy agne váhniṁ cakartha vidáthe yájadhyai",
-        "devā́m̐ áchā dī́dyad yuñjé ádriṁ śamāyé agne tanvàṁ juṣasva"
+        "tváṁ hy àgne prathamó manótāsyā́ dhiyó ábhavo dasma hótā",
+        "tváṁ sīṁ vr̥ṣann akr̥ṇor duṣṭárītu sáho víśvasmai sáhase sáhadhyai"
       ],
       "metricalData": [
-        "LLS L SSL L LL LL SLS SSL SLL",
-        "LL LL LL LL LL SLL LL LL SLS"
+        "L LL SSL SLLL SL SSL LS LL",
+        "L L SL SSL LSLS SL LLL SSL SLL"
       ],
       "type": "version",
       "applyKeys": false
@@ -436,10 +446,10 @@
       "source": "Padapatha",
       "language": "san-Latn-x-ISO-15919",
       "form": [
-        "somasya mā tavasam vakṣi agne vahnim cakartha vidathe yajadhyai devān accha dīdyat yuñje adrim śam-āye agne tanvam juṣasva"
+        "tvam hi agne prathamaḥ manotā asyāḥ dhiyaḥ abhavaḥ dasma hotā tvam sīm vr̥ṣan akr̥ṇoḥ dustarītu sahaḥ viśvasmai sahase sahadhyai"
       ],
       "metricalData": [
-        "LLS L SSL LS LL LL SLS SSL SLL LL LS LL LL LL SLL LL LL SLS"
+        "L S LL SSL SLL LL SS SSL LS LL L L SS SSL LSLS SL LLL SSL SLL"
       ],
       "type": "version",
       "applyKeys": false
@@ -449,8 +459,8 @@
       "source": "Eichler",
       "language": "san-Deva",
       "form": [
-        "सोम॑स्य मा त॒वसं॒ वक्ष्य॑ग्ने॒ वह्निं॑ चकर्थ वि॒दथे॒ यज॑ध्यै",
-        "दे॒वाँ अच्छा॒ दीद्य॑द्यु॒ञ्जे अद्रिं॑ शमा॒ये अ॑ग्ने त॒न्वं॑ जुषस्व"
+        "त्वं ह्य॑ग्ने प्रथ॒मो म॒नोता॒स्या धि॒यो अभ॑वो दस्म॒ होता॑",
+        "त्वं सीं॑ वृषन्नकृणोर्दु॒ष्टरी॑तु॒ सहो॒ विश्व॑स्मै॒ सह॑से॒ सह॑ध्यै"
       ],
       "metricalData": null,
       "type": "version",
@@ -461,7 +471,7 @@
       "source": "Geldner",
       "language": "deu",
       "form": [
-        "(Da) du wünschest, daß ich den starken (Trank) des Soma (opfere), o Agni, so hast du (mich) zum Leiter bei dem Opfer gemacht, um den Weihspruch zu sprechen. Bis zu den Göttern leuchtend — während ich den Preßstein in Gebrauch nehme (und) den Dienst versehe, o Agni — finde du an dir selbst Wohlgefallen!"
+        "Du, Agni, warst ja der erste Ersinner und Opferpriester dieser Dichtung, du Meister. Du Bulle machtest es zu einer unüberwindlichen Macht, um jede Macht zu überwältigen."
       ],
       "metricalData": null,
       "type": "translation",
@@ -472,7 +482,7 @@
       "source": "Graßmann",
       "language": "deu",
       "form": [
-        "Verhilf mir Agni zu der Kraft des Soma, zum Priester mach' mich, bei dem Fest zu opfern; Der Götter achtend schirr' ich an den Pressstein; ich wirke emsig, Agni, du erfreu' dich."
+        "Du, Agni, warst Erreger dieser Andacht, der erste Priester, o du wunderbarer; Du schufst, o Held, die Macht, die unbezwinglich, die Macht, um aller Macht sich zu bemächt'gen."
       ],
       "metricalData": null,
       "type": "translation",
@@ -483,18 +493,7 @@
       "source": "Griffith",
       "language": "eng",
       "form": [
-        "THOU, Agni, who wilt have the strong, hast made me the Soma's priest, to worship in assembly. Thou shinest to the Gods, I set the pressstones. I toil; be joyful in thyself, O Agni."
-      ],
-      "metricalData": null,
-      "type": "translation",
-      "applyKeys": false
-    },
-    {
-      "id": "translation_oldenberg",
-      "source": "Oldenberg",
-      "language": "eng",
-      "form": [
-        "Thou wilt have me, O Agni, as a strong (master) of Soma 1: therefore thou hast made me the carrier (of the gods?) to perform worship at the sacrifice 2. Sending my thoughts to the gods 3 I make the (press-) stone ready 4; I toil, O Agni: find thou pleasure in thy own body 5."
+        "THOU, first inventor of this prayer, O Agni, Worker of Marvels, hast become our Herald. Thou, Bull, hast made us strength which none may conquer, strength that shall overcome all other prowess."
       ],
       "metricalData": null,
       "type": "translation",
@@ -505,7 +504,7 @@
       "source": "Renou",
       "language": "fra",
       "form": [
-        "(Me disant) \"emmène moi (qui suis) fort de soma\", ô Agni, tu as fait (de moi ton) guide dans la distribution-sacrificielle, pour sacrifier;/ dirigeant vers les dieux ma pensée-lumineuse, j'attelle la pierre-presseuse, je fais le travail-rituel: ô Agni, apprécie (l'oblation versée en) ton propre corps!"
+        "C'est bien toi, ô Agni, qui fus le premier inspirateur de ce poème-ci, ô (dieu) merveilleux, (agissant comme) Oblateur./ C'est toi, ô (dieu) mâle, qui as rendu insurpassable ta force-dominante, pour (pouvoir) dominer toute force-dominante."
       ],
       "metricalData": null,
       "type": "translation",
@@ -516,15 +515,15 @@
       "source": "Elizarenkova",
       "language": "rus",
       "form": [
-        "(Говоря так:) Вези меня, сильного от сомы!, о Агни,",
-        "Ты сделал меня возницей, чтобы я жертвовал на месте жертвенных раздач.",
-        "Сверкая (мыслью) в направлении богов, я запрягаю давильный камень,",
-        "Я тружусь. О Агни, радуйся своему телу!"
+        "Ведь это ты, о Агни, был первым",
+        "Вдохновителем этой молитвы (и) хотаром, о чудесный.",
+        "Это ты, о бык, сделал неодолимой (свою)",
+        "Силу, чтоб можно было осилить любую силу."
       ],
       "metricalData": null,
       "type": "translation",
       "applyKeys": true
     }
   ],
-  "location": "03.001.01"
+  "location": "06.001.01"
 }

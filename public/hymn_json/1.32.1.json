@@ -1,0 +1,514 @@
+{
+  "id": "0103201",
+  "index": 368,
+  "book": 1,
+  "hymn": 32,
+  "stanza": 1,
+  "hymnAbs": 32,
+  "hymnAddressee": "Indra",
+  "hymnGroup": "Hymns of Medhatithi",
+  "strata": "C",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/470/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/355/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "índrasya",
+          "lemma": "índra-",
+          "lemmaRefs": [
+            "null",
+            "lemma_indra_1708"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "nú",
+          "lemma": "nú",
+          "lemmaRefs": [
+            "null",
+            "lemma_nu_5078"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "vīryā̀ṇi",
+          "lemma": "vīryà-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vIrya_8333"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "vocam",
+          "lemma": "√vac-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vac_7568"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "1",
+            "mood": "INJ",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "yā́ni",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "cakā́ra",
+          "lemma": "√kr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_kf_2645"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRF",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "prathamā́ni",
+          "lemma": "prathamá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_praTama_5905"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "vajrī́",
+          "lemma": "vajrín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vajrin_7585"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "áhan",
+          "lemma": "√han-",
+          "lemmaRefs": [
+            "null",
+            "lemma_han_10541"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "IPRF",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "áhim",
+          "lemma": "áhi-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ahi_1412"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ánu",
+          "lemma": "ánu",
+          "lemmaRefs": [
+            "null",
+            "lemma_anu_510"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "apáḥ",
+          "lemma": "áp-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ap_616"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "tatarda",
+          "lemma": "√tr̥d-",
+          "lemmaRefs": [
+            "null",
+            "lemma_tfd_3875"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRF",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vakṣáṇāḥ",
+          "lemma": "vakṣáṇā-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vakzaRA_7554",
+            "lemma_vakzaRA_7555"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "abhinat",
+          "lemma": "√bhid-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Bid_6370"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "IPRF",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "párvatānām",
+          "lemma": "párvata-",
+          "lemmaRefs": [
+            "null",
+            "lemma_parvata_5348"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "índrasya nú vīryā̀ṇi prá vocaṃ",
+        "yā́ni cakā́ra prathamā́ni vajrī́",
+        "áhann áhim ánv apás tatarda",
+        "prá vakṣáṇā abhinat párvatānām"
+      ],
+      "metricalData": [
+        "LLS S LLL S LL",
+        "LS SLL SSLS LL",
+        "SL SS L SL SLS",
+        "S LSL SSL LSLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "índrasya nú= vīryā\\ṇi} prá vocam",
+        "yā́ni cakā́ra= prathamā́ni vajrī́-_",
+        "áhan áhim= ánu apáḥ} tatarda",
+        "prá vakṣáṇāḥ= abhinat párvatānām"
+      ],
+      "metricalData": [
+        "LLS S LLL S LL",
+        "LS SLL SSLS LL",
+        "SS SS SS SL SLS",
+        "S LSL SSL LSLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "índrasya nú vīríyāṇi prá vocaṁ",
+        "yā́ni cakā́ra prathamā́ni vajrī́",
+        "áhann áhim ánu apás tatarda",
+        "prá vakṣáṇā abhinat párvatānām"
+      ],
+      "metricalData": [
+        "LLS S LSLL S LL",
+        "LS SLL SSLS LL",
+        "SL SS SS SL SLS",
+        "S LSL SSL LSLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "índrasya nú vīryāā̀ṇi prá vocaṁ yā́ni cakā́ra prathamā́ni vajrī́",
+        "áhann áhim ánv apás tatarda prá vakṣáṇā abhinat párvatānām"
+      ],
+      "metricalData": [
+        "LLS S LLLL S LL LS SLL SSLS LL",
+        "SL SS L SL SLL S LSL SSL LSLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "indrasya nu vīryāṇi pra vocam yāni cakāra prathamāni vajrī ahan ahim anu apaḥ tatarda pra vakṣaṇāāḥ abhinat parvatānām"
+      ],
+      "metricalData": [
+        "LLS S LLL S LL LS SLL SSLS LL SS SS SS SL SLL S LSLL SSL LSLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "इन्द्र॑स्य॒ नु वी॒र्या॑णि॒ प्र वो॑चं॒ यानि॑ च॒कार॑ प्रथ॒मानि॑ व॒ज्री",
+        "अह॒न्नहि॒मन्व॒पस्त॑तर्द॒ प्र व॒क्षणा॑ अभिन॒त्पर्व॑तानाम्"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Des Indra Heldentaten will ich nun verkünden, die ersten, die der Keulenträger getan hat: Er erschlug den Drachen, erbrach die Gewässer; er spaltete die Weichen der Berge."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Jetzt will ich Indra's Heldenthaten singen, die ersten, die des Blitzes Herr vollbracht hat; Er schlug den Drachen, liess die Wasser strömen und spaltete der Wolkenberge Bäuche."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "I WILL declare the manly deeds of Indra, the first that he achieved, the Thunder-wielder. He slew the Dragon, then disclosed the waters, and cleft the channels of the mountain torrents."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_macdonell",
+      "source": "MacDonell",
+      "language": "eng",
+      "form": [
+        "I will proclaim the manly deeds of Indra, The first that he performed, the lightning-wielder. He slew the serpent, then discharged the waters, And cleft the caverns of the lofty mountains."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Donc, les exploits-virils d'Indra, je vais les proclamer, ceux qu'il a faits en premiers, (le dieu) au foudre:/ il a tué le dragon, il a percé (tout) au long (la voie pour) les eaux, il a fendu au loin les entrailles des montagnes. "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Индры героические деяния сейчас я хочу провозгласить:",
+        "Те первые, что совершил громовержец,",
+        "Он убил змея, он просверлил (русла) вод,",
+        "Он рассек недра гор."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "01.032.01"
+}

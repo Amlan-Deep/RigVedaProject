@@ -1,0 +1,525 @@
+{
+  "id": "0804802",
+  "index": 6998,
+  "book": 8,
+  "hymn": 48,
+  "stanza": 2,
+  "hymnAbs": 668,
+  "hymnAddressee": "Soma",
+  "hymnGroup": "Hymns of Virupa, Vasa and Others",
+  "strata": "p",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0123"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/185/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "D",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "antár",
+          "lemma": "antár",
+          "lemmaRefs": [
+            "null",
+            "lemma_antar_572"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "ca",
+          "lemma": "ca",
+          "lemmaRefs": [
+            "null",
+            "lemma_ca_3184"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "agāḥ",
+          "lemma": "√gā-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gA_2947"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "IND",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "áditiḥ",
+          "lemma": "áditi-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aditi_287"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "bhavāsi",
+          "lemma": "√bhū-",
+          "lemmaRefs": [
+            "null",
+            "lemma_BU_6403"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "SBJV",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "D",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "avayātā́",
+          "lemma": "avayātár-",
+          "lemmaRefs": [
+            "null",
+            "lemma_avayAtf_1127"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "hárasaḥ",
+          "lemma": "háras-",
+          "lemmaRefs": [
+            "null",
+            "lemma_haras_10552"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "daívyasya",
+          "lemma": "daívya-",
+          "lemmaRefs": [
+            "null",
+            "lemma_dEvya_4499"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "D",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "índo",
+          "lemma": "índu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_indu_1707"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "índrasya",
+          "lemma": "índra-",
+          "lemmaRefs": [
+            "null",
+            "lemma_indra_1708"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "sakhyám",
+          "lemma": "sakhyá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_saKya_9117"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "juṣāṇáḥ",
+          "lemma": "√juṣ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_juz_3541"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "tense": "AOR",
+            "voice": "MED",
+            "non-finite": "PTCP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "śraúṣṭī",
+          "lemma": "śraúṣṭi-",
+          "lemmaRefs": [
+            "null",
+            "lemma_SrOzwi_9019"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "iva",
+          "lemma": "iva",
+          "lemmaRefs": [
+            "null",
+            "lemma_iva_1775"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "dhúram",
+          "lemma": "dhúr-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Dur_4726"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "ánu",
+          "lemma": "ánu",
+          "lemmaRefs": [
+            "null",
+            "lemma_anu_510"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "rāyé",
+          "lemma": "rayí- ~ rāy-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rayi_7325"
+          ],
+          "props": {
+            "case": "DAT",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "r̥dhyāḥ",
+          "lemma": "√r̥dh-",
+          "lemmaRefs": [
+            "null",
+            "lemma_fD_2235"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "OPT",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "antáś ca prā́gā áditir bhavāsi-",
+        "avayātā́ háraso daívyasya",
+        "índav índrasya sakhyáṃ juṣāṇáḥ",
+        "śraúṣṭīva dhúram ánu rāyá r̥dhyāḥ"
+      ],
+      "metricalData": [
+        "LL L LL SSL SLS",
+        "SSLL SSL LLS",
+        "LS LLS LL SLL",
+        "LLS SS SS LS LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "antár ca prá agāḥ= áditiḥ} bhavāsi",
+        "avayātā́= hárasaḥ daívyasya",
+        "índo índrasya= sakhyám} juṣāṇáḥ",
+        "śraúṣṭī?_ iva dhúram= ánu rāyé-_ r̥dhyāḥ"
+      ],
+      "metricalData": [
+        "LL L S SL SSL SLS",
+        "SSLL SSL LLS",
+        "LL LLS LL SLL",
+        "LL SS SS SS LL LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "antáś ca prā́gā áditir bhavāsi",
+        "avayātā́ háraso daíviyasya",
+        "índav índrasya sakhiyáṁ juṣāṇáḥ",
+        "śraúṣṭīva dhúram ánu rāyá r̥dhyāḥ"
+      ],
+      "metricalData": [
+        "LL L LL SSL SLS",
+        "SSLL SSL LSLS",
+        "LS LLS SSL SLL",
+        "LLS SS SS LS LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "antáś ca prā́gā áditir bhavāsy avayātā́ háraso daívyasya",
+        "índav índrasya sakhyáṁ juṣāṇáḥ śraúṣṭīva dhúram ánu rāyá r̥dhyāḥ"
+      ],
+      "metricalData": [
+        "LL L LL SSL SL SSLL SSL LLS",
+        "LS LLS LL SLL LLS SS SS LS LL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "antariti ca pra agāḥ aditiḥ bhavāsi ava-yātā harasaḥ daivyasya indo iti indrasya sakhyam juṣāṇaḥ śrauṣṭī-iva dhuram anu rāye r̥dhyāḥ"
+      ],
+      "metricalData": [
+        "LSSS L S SL SSL SLS SSLL SSL LLS LL SS LLS LL SLL LLSS SS SS LL LL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "अ॒न्तश्च॒ प्रागा॒ अदि॑तिर्भवास्यवया॒ता हर॑सो॒ दैव्य॑स्य",
+        "इन्द॒विन्द्र॑स्य स॒ख्यं जु॑षा॒णः श्रौष्टी॑व॒ धुर॒मनु॑ रा॒य ऋ॑ध्याः"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Wenn du ins Innere gegangen bist, sollst du zur Aditi werden, den göttlichen Zorn abwendend. O Saft, mögest du dich der Freundschaft Indra's erfreuen und dich, um Reichtum (zu gewinnen), wie eine folgsame Stute(?) ins Joch schicken. "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Du tratest ein bei mir, so sei mir heilvoll, und nimm hinweg von mir den Zorn der Götter; O Indu, der du liebst des Indra Freundschaft, lenk her uns Reichthum, wie das Ross den Wagen."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Tlou shalt be Aditi as thou hast entered within, appeaser of celestial anger. Indu, enjoying Indra's friendship, bring us – as a swift steed the car – forward to riches."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_macdonell",
+      "source": "MacDonell",
+      "language": "eng",
+      "form": [
+        "Thou shalt be Aditi when thou hast entered Within, appeaser of celestial anger. May'st thou, O drop, enjoying Indra's friendship, Like willing mare the car, to wealth advance us."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Quand tu te seras avancé à l'intérieur (du corps humain), tu deviendras le déliement, celui qui détourne la prise divine./ O suc-de-soma, puisses tu, jouissant de l'amitié d'Indra, suivre les richesses comme la (bête-de-trait) docile (suit) le joug!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Когда ты проник внутрь, ты становишься безграничностью,",
+        "Тем, кто отводит божественную немилость.",
+        "О сок сомы, радуясь дружбе Индры,",
+        "Пусть последуешь ты за богатствами, как послушная (лошадь) – за дышлом."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "08.048.02"
+}

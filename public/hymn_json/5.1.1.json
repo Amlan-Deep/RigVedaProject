@@ -1,0 +1,541 @@
+{
+  "id": "0500101",
+  "index": 3641,
+  "book": 5,
+  "hymn": 1,
+  "stanza": 1,
+  "hymnAbs": 355,
+  "hymnAddressee": "Agni",
+  "hymnGroup": "Hymns to Agni",
+  "strata": "N",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0322"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/322/mode/1up"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/627/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/49/mode/1up",
+        "https://archive.org/details/syntaktischefor03windgoog/page/266/mode/1up",
+        "https://archive.org/details/syntaktischefor03windgoog/page/463/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "ábodhi",
+          "lemma": "√budh-",
+          "lemmaRefs": [
+            "null",
+            "lemma_buD_6217"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "AOR",
+            "voice": "PASS",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "agníḥ",
+          "lemma": "agní-",
+          "lemmaRefs": [
+            "null",
+            "lemma_agni_79"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "samídhā",
+          "lemma": "samídh-",
+          "lemmaRefs": [
+            "null",
+            "lemma_samiD_9395"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "jánānām",
+          "lemma": "jána-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jana_3390"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "práti",
+          "lemma": "práti",
+          "lemmaRefs": [
+            "null",
+            "lemma_prati_5868"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "dhenúm",
+          "lemma": "dhenú-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Denu_4752"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "iva",
+          "lemma": "iva",
+          "lemmaRefs": [
+            "null",
+            "lemma_iva_1775"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "āyatī́m",
+          "lemma": "√i- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_i_1675"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "SG",
+            "tense": "PRS",
+            "voice": "ACT",
+            "non-finite": "PTCP",
+            "local particle": "LP",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "uṣā́sam",
+          "lemma": "uṣás-",
+          "lemmaRefs": [
+            "null",
+            "lemma_uzas_2081"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "yahvā́ḥ",
+          "lemma": "yahvá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_yahva_7088"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "iva",
+          "lemma": "iva",
+          "lemmaRefs": [
+            "null",
+            "lemma_iva_1775"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "vayā́m",
+          "lemma": "vayā́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vayA_7680"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ujjíhānāḥ",
+          "lemma": "√hā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_hA_10638"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "tense": "PRS",
+            "voice": "MED",
+            "non-finite": "PTCP",
+            "local particle": "LP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "bhānávaḥ",
+          "lemma": "bhānú-",
+          "lemmaRefs": [
+            "null",
+            "lemma_BAnu_6348"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "sisrate",
+          "lemma": "√sr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sf_10129"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "nā́kam",
+          "lemma": "nā́ka-",
+          "lemmaRefs": [
+            "null",
+            "lemma_nAka_4902"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ácha",
+          "lemma": "ácha",
+          "lemmaRefs": [
+            "null",
+            "lemma_aCa_160"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ábodhy agníḥ samídhā jánānām",
+        "práti dhenúm ivāyatī́m uṣā́sam",
+        "yahvā́ iva prá vayā́m ujjíhānāḥ",
+        "prá bhānávaḥ sisrate nā́kam ácha"
+      ],
+      "metricalData": [
+        "SL LL SSL SLL",
+        "SS LS SLSL SLL",
+        "LL SL S SL LSLL",
+        "S LSL LSL LS LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ábodhi agníḥ= samídhā} jánānām",
+        "práti dhenúm= iva āyatī́m} uṣā́sam",
+        "yahvā́ḥ iva= prá vayā́m ujjíhānāḥ",
+        "prá bhānávaḥ= sisrate-_ nā́kam áccha"
+      ],
+      "metricalData": [
+        "SLS LL SSL SLL",
+        "SS LS SS LSL SLL",
+        "LL SL S SL LSLL",
+        "S LSL LSL LS LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ábodhi agníḥ samídhā jánānām",
+        "práti dhenúm ivāyatī́m uṣā́sam",
+        "yahvā́ iva prá vayā́m ujjíhānāḥ",
+        "prá bhānávaḥ sisrate nā́kam ácha"
+      ],
+      "metricalData": [
+        "SLS LL SSL SLL",
+        "SS LS SLSL SLL",
+        "LL SL S SL LSLL",
+        "S LSL LSL LS LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ábodhy agníḥ samídhā jánānām práti dhenúm ivāyatī́m uṣā́sam",
+        "yahvā́ iva prá vayā́m ujjíhānāḥ prá bhānávaḥ sisrate nā́kam ácha"
+      ],
+      "metricalData": [
+        "SL LL SSL SLL SS LS SLSL SLL",
+        "LL SL S SL LSLL S LSL LSL LS LS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "abodhi agniḥ sam-idhā janānām prati dhenum-iva āyatīm uṣasam yahvāḥ-iva pra vayām ut-jihānāḥ pra bhānavaḥ sisrate nākam accha"
+      ],
+      "metricalData": [
+        "SLS LL SSL SLL SS LSSS LSL SSL LLSL S SL LSLL S LSL LSL LS LS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "अबो॑ध्य॒ग्निः स॒मिधा॒ जना॑नां॒ प्रति॑ धे॒नुमि॑वाय॒तीमु॒षास॑म्",
+        "य॒ह्वा इ॑व॒ प्र व॒यामु॒ज्जिहा॑नाः॒ प्र भा॒नवः॑ सिस्रते॒ नाक॒मच्छ॑"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Agni ist durch das Brennholz der Menschen wach geworden in Erwartung der Uṣas, die wie eine Kuh' sich naht. Wie die jüngsten (Vögel), die zum Zweig auffliegen, eilen seine Strahlen zum Himmel empor."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Erweckt ist Agni durch der Menschen Brennholz und Uschas naht ihm, einer Milchkuh gleichend; Wie Vögel, die empor zum Aste fliegen, so dringen hin zum Himmel seine Strahlen."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Agni is wakened by the people's fuel to meet the Dawn who cometh like a milch-cow. Like young trees shooting up on high their branches, his flames are rising to the vault of heaven."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_oldenberg",
+      "source": "Oldenberg",
+      "language": "eng",
+      "form": [
+        "Agni has been wakened by the fuel of men, in face of the Dawn who approaches like a milch-cow. His flames stream forward to the sky like quick (birds) that fly up to a branch."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Il s'est éveillé, Agni, grâce à la bûche-flambante des hommes, face à l'aurore arrivant comme une vache-laitière;/ comme de jeunes (oiseaux) s'élançant vers la branche, les rayons courent au loin vers le firmament."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Пробудился Агни благодаря дровам людей",
+        "Навстречу Ушас, приближающейся, как дойная корова.",
+        "Словно юные (птенцы), взлетающие на ветку,",
+        "Лучи спешат вперед к небосводу."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "05.001.01"
+}

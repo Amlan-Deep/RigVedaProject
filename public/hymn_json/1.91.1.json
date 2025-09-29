@@ -1,0 +1,516 @@
+{
+  "id": "0109101",
+  "index": 987,
+  "book": 1,
+  "hymn": 91,
+  "stanza": 1,
+  "hymnAbs": 91,
+  "hymnAddressee": "Soma",
+  "hymnGroup": "Hymns of Gotama, the Son of Rahugana",
+  "strata": "n",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0102"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/183/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "tvám",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "NOM",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "soma",
+          "lemma": "sóma-",
+          "lemmaRefs": [
+            "null",
+            "lemma_soma_10160"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "cikitaḥ",
+          "lemma": "√cit-",
+          "lemmaRefs": [
+            "null",
+            "lemma_cit_3290"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "INJ",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "manīṣā́",
+          "lemma": "manīṣā́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_manIzA_6604"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "tvám",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "NOM",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "rájiṣṭham",
+          "lemma": "rájiṣṭha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rajizWa_7239",
+            "lemma_rajizWa_12506"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "degree": "SUP",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ánu",
+          "lemma": "ánu",
+          "lemmaRefs": [
+            "null",
+            "lemma_anu_510"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "neṣi",
+          "lemma": "√nī-",
+          "lemmaRefs": [
+            "null",
+            "lemma_nI_5054"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "IMP-si",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "pánthām",
+          "lemma": "pánthā- ~ path-",
+          "lemmaRefs": [
+            "null",
+            "lemma_paTi_5219"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "táva",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "GEN",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "práṇītī",
+          "lemma": "práṇīti-",
+          "lemmaRefs": [
+            "null",
+            "lemma_praRIti_5859"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "pitáraḥ",
+          "lemma": "pitár-",
+          "lemmaRefs": [
+            "null",
+            "lemma_pitf_5481"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "naḥ",
+          "lemma": "ahám",
+          "lemmaRefs": [
+            "null",
+            "lemma_aham_1404"
+          ],
+          "props": {
+            "case": "GEN",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "indo",
+          "lemma": "índu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_indu_1707"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "devéṣu",
+          "lemma": "devá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_deva_4419"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "rátnam",
+          "lemma": "rátna-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ratna_7252"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "abhajanta",
+          "lemma": "√bhaj-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Baj_6293"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "IPRF",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "dhī́rāḥ",
+          "lemma": "dhī́ra-",
+          "lemmaRefs": [
+            "null",
+            "lemma_DIra_4715"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tváṃ soma prá cikito manīṣā́",
+        "tváṃ rájiṣṭham ánu neṣi pánthām",
+        "táva práṇītī pitáro na indo",
+        "devéṣu rátnam abhajanta dhī́rāḥ"
+      ],
+      "metricalData": [
+        "L LL S SSL SLL",
+        "L SLS SS LS LL",
+        "SL SLL SSL S LL",
+        "LLS LS SSLS LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tvám soma= prá cikitaḥ} manīṣā́",
+        "tvám rájiṣṭham= ánu neṣi pánthām",
+        "táva práṇītī-_= pitáraḥ} naḥ indo",
+        "devéṣu rátnam= abhajanta dhī́rāḥ"
+      ],
+      "metricalData": [
+        "L LL S SSL SLL",
+        "L SLS SS LS LL",
+        "SL SLL SSL S LL",
+        "LLS LS SSLS LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tuváṁ soma prá cikito manīṣā́",
+        "tuváṁ rájiṣṭham ánu neṣi pánthām",
+        "táva práṇītī pitáro na indo",
+        "devéṣu rátnam abhajanta dhī́rāḥ"
+      ],
+      "metricalData": [
+        "SL LL S SSL SLL",
+        "SL SLS SS LS LL",
+        "SL SLL SSL S LL",
+        "LLS LS SSLS LL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tváṁ soma prá cikito manīṣā́ tváṁ rájiṣṭham ánu neṣi pánthām",
+        "táva práṇītī pitáro na indo devéṣu rátnam abhajanta dhī́rāḥ"
+      ],
+      "metricalData": [
+        "L LL S SSL SLL L SLS SS LS LL",
+        "SL SLL SSL S LL LLS LS SSLS LL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tvam soma pra cikitaḥ manīṣā tvam rajiṣṭham anu neṣi panthām tava pra-nītī pitaraḥ naḥ indo iti deveṣu ratnam abhajanta dhīrāḥ"
+      ],
+      "metricalData": [
+        "L LL S SSL SLL L SLS SS LS LL SL SLL SSL S LL SS LLS LS SSLS LL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "त्वं सो॑म॒ प्र चि॑कितो मनी॒षा त्वं रजि॑ष्ठ॒मनु॑ नेषि॒ पन्था॑म्",
+        "तव॒ प्रणी॑ती पि॒तरो॑ न इन्दो दे॒वेषु॒ रत्न॑मभजन्त॒ धीराः॑"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Du, Soma, offenbare dich durch (dichterische) Gedanken, führe du uns den richtigsten Weg! Unter deiner Führung, du Saft, empfingen unsere weisen Väter von den Göttern das Kleinod."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Du ragst, o Soma, hoch hervor an Weisheit, du führst, o Indu, auf dem gradsten Wege; Durch deine Leitung haben unsre Väter, die weisen, Schutz empfangen bei den Göttern."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Thou, Soma, art preeminent for wisdom; along the straightest path thou art our leader. Our wise forefathers by thy guidance, Indu, dealt out among the Gods their share of treasure."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Toi, ô soma, signale toi par la possession-du-sens; toi, conduis nous par la voie la plus droite!/ Sous ta conduite, ô suc, nos Pères ont eu part au trésor chez les dieux, (ces Pères) habiles."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Ты, Сома, проявись через сознание!",
+        "Ты веди (нас) самым прямым путем!",
+        "Под твоим предводительством отцы наши, о сок,",
+        "Получили долю в богатстве у богов, (они,) мудрые."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "01.091.01"
+}

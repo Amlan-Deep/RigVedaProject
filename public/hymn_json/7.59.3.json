@@ -1,0 +1,448 @@
+{
+  "id": "0705903",
+  "index": 5625,
+  "book": 7,
+  "hymn": 59,
+  "stanza": 3,
+  "hymnAbs": 575,
+  "hymnAddressee": "The Maruts",
+  "hymnGroup": "Hymns to the Maruts",
+  "strata": "S",
+  "lateAdditions": null,
+  "stanzaType": null,
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0054"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/259/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/459/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "nahí",
+          "lemma": "nahí",
+          "lemmaRefs": [
+            "null",
+            "lemma_nahi_4898"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vaḥ",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "GEN",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "caramám",
+          "lemma": "caramá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_carama_3251"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "caná",
+          "lemma": "caná",
+          "lemmaRefs": [
+            "null",
+            "lemma_cana_3222"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "vásiṣṭhaḥ",
+          "lemma": "vásiṣṭha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vasizWa_7796"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "degree": "SUP",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 2,
+          "form": "parimáṃsate",
+          "lemma": "√man- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_man_6585"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "SBJV",
+            "tense": "AOR",
+            "voice": "MED",
+            "local particle": "LP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "asmā́kam",
+          "lemma": "ahám",
+          "lemmaRefs": [
+            "null",
+            "lemma_aham_1404"
+          ],
+          "props": {
+            "case": "GEN",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "adyá",
+          "lemma": "adyá",
+          "lemmaRefs": [
+            "null",
+            "lemma_adya_315"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "marutaḥ",
+          "lemma": "marút-",
+          "lemmaRefs": [
+            "null",
+            "lemma_marut_6679"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "suté",
+          "lemma": "√su-",
+          "lemmaRefs": [
+            "null",
+            "lemma_su_9701"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "sácā",
+          "lemma": "sácā",
+          "lemmaRefs": [
+            "null",
+            "lemma_sacA_9143"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "víśve",
+          "lemma": "víśva-",
+          "lemmaRefs": [
+            "null",
+            "lemma_viSva_8151"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "pibata",
+          "lemma": "√pā- 2",
+          "lemmaRefs": [
+            "null",
+            "lemma_pA_5405"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "2",
+            "mood": "IMP",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "kāmínaḥ",
+          "lemma": "kāmín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_kAmin_2526"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "nahí vaś caramáṃ caná",
+        "vásiṣṭhaḥ parimáṃsate",
+        "asmā́kam adyá marutaḥ suté sácā",
+        "víśve pibata kāmínaḥ"
+      ],
+      "metricalData": [
+        "SS L SSL SS",
+        "SLL SSLSL",
+        "LLS LS SSL SL SL",
+        "LL SSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "nahí vaḥ caramám caná",
+        "vásiṣṭhaḥ parimáṁsate?_",
+        "asmā́kam adyá= marutaḥ} suté-_ sácā",
+        "víśve?_ pibata kāmínaḥ"
+      ],
+      "metricalData": [
+        "SS L SSL SS",
+        "SLL SSLSL",
+        "LLS LS SSL SL SL",
+        "LL SSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "nahí vaś caramáṁ caná",
+        "vásiṣṭhaḥ parimáṁsate",
+        "asmā́kam adyá marutaḥ suté sácā",
+        "víśve pibata kāmínaḥ"
+      ],
+      "metricalData": [
+        "SS L SSL SS",
+        "SLL SSLSL",
+        "LLS LS SSL SL SL",
+        "LL SSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "nahí vaś caramáṁ caná vásiṣṭhaḥ parimáṁsate",
+        "asmā́kam adyá marutaḥ suté sácā víśve pibata kāmínaḥ"
+      ],
+      "metricalData": [
+        "SS L SSL SS SLL SSLSL",
+        "LLS LS SSL SL SL LL SSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "nahi vaḥ caramam cana vasiṣṭhaḥ pari-maṁsate asmākam adya marutaḥ sute sacā viśve pibata kāminaḥ"
+      ],
+      "metricalData": [
+        "SS L SSL SS SLL SSLSL LLS LS SSL SL SL LL SSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "न॒हि व॑श्चर॒मं च॒न वसि॑ष्ठः परि॒मंस॑ते",
+        "अ॒स्माक॑म॒द्य म॑रुतः सु॒ते सचा॒ विश्वे॑ पिबत का॒मिनः॑"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Denn auch den letzten unter euch wird Vasiṣṭha nicht verachten. Bei unserer Somapressung trinket heute alle mit Lust, ihr Marut!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Denn auch den letzten unter euch versäumet ja Vasischtha nicht, O Maruts trinket heut von unserm Somasaft, ihr alle recht nach Herzenslust;"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Vasishṭha will not overlook the lowliest one among you all. O Maruts, of our Soma juice effused to-day drink all of you with eager haste."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_mueller",
+      "source": "Müller",
+      "language": "eng",
+      "form": [
+        "This Vasishtha will not despise even the last among you, O Maruts; drink 1 all of you, to-day, at my libation here, full of desire."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Non, le dernier même d'entre vous (ô Marut's), Vasiṣṭha ne le méprisera pas./ En compagnie de notre (soma) pressé, ô Marut's, buvez tous aujourd'hui, vous qui désirez (boire)!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Нет, даже последним из вас",
+        "Не пренебрежет Васиштха!",
+        "У нас сегодня, о Маруты, при выжимании (сомы)",
+        "Пейте все, у кого есть желание!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "07.059.03"
+}

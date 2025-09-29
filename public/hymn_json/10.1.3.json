@@ -1,0 +1,533 @@
+{
+  "id": "1000103",
+  "index": 8800,
+  "book": 10,
+  "hymn": 1,
+  "stanza": 3,
+  "hymnAbs": 827,
+  "hymnAddressee": "Agni",
+  "hymnGroup": "Hymns of Trita Aptya",
+  "strata": "S",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0207"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/392/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "víṣṇuḥ",
+          "lemma": "víṣṇu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vizRu_8260"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "itthā́",
+          "lemma": "itthā́",
+          "lemmaRefs": [
+            "null",
+            "lemma_itTA_1690"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "paramám",
+          "lemma": "paramá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_parama_5264"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "asya",
+          "lemma": "ayám",
+          "lemmaRefs": [
+            "null",
+            "lemma_idam_1696"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "vidvā́n",
+          "lemma": "√vid- 2",
+          "lemmaRefs": [
+            "null",
+            "lemma_vid_7999"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "tense": "PRF",
+            "voice": "ACT",
+            "non-finite": "PTCP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "jātáḥ",
+          "lemma": "√janⁱ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jan_3389"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "br̥hán",
+          "lemma": "br̥hánt-",
+          "lemmaRefs": [
+            "null",
+            "lemma_bfhat_6230"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "abhí",
+          "lemma": "abhí",
+          "lemmaRefs": [
+            "null",
+            "lemma_aBi_765"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "pāti",
+          "lemma": "√pā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_pA_5404"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "tr̥tī́yam",
+          "lemma": "tr̥tī́ya-",
+          "lemmaRefs": [
+            "null",
+            "lemma_tftIya_3873"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "āsā́",
+          "lemma": "ā́s-",
+          "lemmaRefs": [
+            "null",
+            "lemma_As_1648"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "asya",
+          "lemma": "ayám",
+          "lemmaRefs": [
+            "null",
+            "lemma_idam_1696"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "páyaḥ",
+          "lemma": "páyas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_payas_5254"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ákrata",
+          "lemma": "√kr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_kf_2645"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "AOR",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "svám",
+          "lemma": "svá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sva_10367"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "sácetasaḥ",
+          "lemma": "sácetas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sacetas_9148"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "abhí",
+          "lemma": "abhí",
+          "lemmaRefs": [
+            "null",
+            "lemma_aBi_765"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "arcanti",
+          "lemma": "√r̥c-",
+          "lemmaRefs": [
+            "null",
+            "lemma_arc_1033"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "átra",
+          "lemma": "átra",
+          "lemmaRefs": [
+            "null",
+            "lemma_atra_255"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "víṣṇur itthā́ paramám asya vidvā́ñ",
+        "jātó br̥hánn abhí pāti tr̥tī́yam",
+        "āsā́ yád asya páyo ákrata sváṃ",
+        "sácetaso abhy àrcanty átra"
+      ],
+      "metricalData": [
+        "LS LL SSS LS LL",
+        "LL SL SS LS SLL",
+        "LL S LS SL LSL L",
+        "SLSL L LL LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "víṣṇuḥ itthā́= paramám asya vidvā́n",
+        "jātáḥ br̥hán= abhí pāti} tr̥tī́yam",
+        "āsā́ yát asya= páyaḥ ákrata svám",
+        "sácetasaḥ= abhí arcanti átra"
+      ],
+      "metricalData": [
+        "LS LL SSS LS LL",
+        "LL SS SS LL SLL",
+        "LL S LS SS LSL L",
+        "SLSS SS LLS LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "víṣṇur itthā́ paramám asya vidvā́ñ",
+        "jātó br̥hánn abhí pāti tr̥tī́yam",
+        "āsā́ yád asya páyo ákrata sváṁ",
+        "sácetaso abhí arcanti átra"
+      ],
+      "metricalData": [
+        "LS LL SSS LS LL",
+        "LL SL SS LS SLL",
+        "LL S LS SL LSL L",
+        "SLSL SS LLS LS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "víṣṇur itthā́ paramám asya vidvā́ñ jātó br̥hánn abhí pāti tr̥tī́yam",
+        "āsā́ yád asya páyo ákrata sváṁ sácetaso abhy àrcanty átra"
+      ],
+      "metricalData": [
+        "LS LL SSS LS LL LL SL SS LS SLL",
+        "LL S LS SL LSL L SLSL L LL LS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "viṣṇuḥ itthā paramam asya vidvān jātaḥ br̥han abhi pāti tr̥tīyam āsā yat asya payaḥ akrata svam sa-cetasaḥ abhi arcanti atra"
+      ],
+      "metricalData": [
+        "LS LL SSS LS LL LL SS SS LS SLS LL S LS SS LSL L SLSS SS LLS LS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "विष्णु॑रि॒त्था प॑र॒मम॑स्य वि॒द्वाञ्जा॒तो बृ॒हन्न॒भि पा॑ति तृ॒तीय॑म्",
+        "आ॒सा यद॑स्य॒ पयो॒ अक्र॑त॒ स्वं सचे॑तसो अ॒भ्य॑र्च॒न्त्यत्र॑"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "(Als?) Viṣṇu dort seinen höchsten (Ort) kennend, behütet der Geborene, der Hohe den dritten (Geburtsort). Wann sie mit ihrem Munde die ihm gehörige Milch bereitet haben, dann vereinen sie ihn hier einmütig."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Vischnu fürwahr, der Agni's höchsten Ort kennt, beschützt den dritten Ort, der hochgeborne; Wenn dessen Milch zur seinen er gemacht hat, dann preisen ihn die weisen, hier erscheinend."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Here, being manifested, lofty Vishṇu, full wise, protects his own supremest station. When they have offered in his mouth their sweet milk, to him with one accord they sing forth praises."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Viṣṇu, ainsi (qu'on sait, ce dieu) qui connaît son (séjour) suprême, (sitôt) né, (devenu) haut, veille sur le troisième (séjour)./ (Quant à) cet (Agni ici,) quand (les prêtres) eurent obtenu pour eux, grâce a (sa) bouche, le lait (qui est) sien, d'une même pensée alors ils entonnent-le-chant."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Как (это свойственно) Вишну, зная свое высшее (местоприбывание),",
+        "(Едва) родившись, высокий охраняет третье (местоприбывание).",
+        "Когда через (его) уста они получили себе его собственное молоко,",
+        "Они, единодушные, воспевают его здесь."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "10.001.03"
+}

@@ -1,0 +1,538 @@
+{
+  "id": "0701801",
+  "index": 5278,
+  "book": 7,
+  "hymn": 18,
+  "stanza": 1,
+  "hymnAbs": 534,
+  "hymnAddressee": "Indra",
+  "hymnGroup": "Hymns to Indra",
+  "strata": "C",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0026"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/539/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/11/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "tvé",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "LOC",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "ha",
+          "lemma": "ha",
+          "lemmaRefs": [
+            "null",
+            "lemma_ha_10533"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "pitáraḥ",
+          "lemma": "pitár-",
+          "lemmaRefs": [
+            "null",
+            "lemma_pitf_5481"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "cit",
+          "lemma": "cid",
+          "lemmaRefs": [
+            "null",
+            "lemma_cid_3315"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 6,
+          "form": "naḥ",
+          "lemma": "ahám",
+          "lemmaRefs": [
+            "null",
+            "lemma_aham_1404"
+          ],
+          "props": {
+            "case": "GEN",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 7,
+          "form": "indra",
+          "lemma": "índra-",
+          "lemmaRefs": [
+            "null",
+            "lemma_indra_1708"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "víśvā",
+          "lemma": "víśva-",
+          "lemmaRefs": [
+            "null",
+            "lemma_viSva_8151"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vāmā́",
+          "lemma": "vāmá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vAma_7908"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "jaritā́raḥ",
+          "lemma": "jaritár-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jaritf_3445"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "ásanvan",
+          "lemma": "√sanⁱ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_san_9251"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "IPRF",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "tvé",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "LOC",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "gā́vaḥ",
+          "lemma": "gáv- ~ gó-",
+          "lemmaRefs": [
+            "null",
+            "lemma_go_3032"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "sudúghāḥ",
+          "lemma": "sudúgha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_suduGa_9798"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "tvé",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "LOC",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "hí",
+          "lemma": "hí",
+          "lemmaRefs": [
+            "null",
+            "lemma_hi_10645"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "áśvāḥ",
+          "lemma": "áśva-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aSva_1254"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "tvám",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "NOM",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vásu",
+          "lemma": "vásu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vasu_7798"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "devayaté",
+          "lemma": "√devay-",
+          "lemmaRefs": [
+            "null",
+            "lemma_devay_4453"
+          ],
+          "props": {
+            "case": "DAT",
+            "gender": "M",
+            "number": "SG",
+            "tense": "PRS",
+            "voice": "ACT",
+            "non-finite": "PTCP",
+            "secondary conjugation": "DEN",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "vániṣṭhaḥ",
+          "lemma": "vániṣṭha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vanizWa_7635"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "degree": "SUP",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tvé ha yát pitáraś cin na indra",
+        "víśvā vāmā́ jaritā́ro ásanvan",
+        "tvé gā́vaḥ sudúghās tvé hy áśvās",
+        "tváṃ vásu devayaté vániṣṭhaḥ"
+      ],
+      "metricalData": [
+        "L S L SSL L S LS",
+        "LL LL SSLL SLL",
+        "L LL SSL L LL",
+        "L SS LSSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tvé+_ ha yát= pitáraḥ cit} naḥ indra",
+        "víśvā vāmā́= jaritā́raḥ} ásanvan",
+        "tvé+_ gā́vaḥ= sudúghāḥ tvé+_} hí áśvāḥ",
+        "tvám vásu= devayaté?_} vániṣṭhaḥ"
+      ],
+      "metricalData": [
+        "L S L SSL L S LS",
+        "LL LL SSLL SLL",
+        "L LL SSL L S LL",
+        "L SS LSSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tuvé ha yát pitáraś cin na indra",
+        "víśvā vāmā́ jaritā́ro ásanvan",
+        "tuvé gā́vaḥ sudúghās tvé hí áśvās",
+        "tuváṁ vásu devayaté vániṣṭhaḥ"
+      ],
+      "metricalData": [
+        "SL S L SSL L S LS",
+        "LL LL SSLL SLL",
+        "SL LL SSL L S LL",
+        "SL SS LSSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tvé ha yát pitáraś cin na indra víśvā vāmā́ jaritā́ro ásanvan",
+        "tvé gā́vaḥ sudúghās tvé hy áśvās tváṁ vásu devayaté vániṣṭhaḥ"
+      ],
+      "metricalData": [
+        "L S L SSL L S LS LL LL SSLL SLL",
+        "L LL SSL L LL L SS LSSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "tve iti ha yat pitaraḥ cit naḥ indra viśvā vāmā jaritāraḥ asanvan tve iti gāvaḥ su-dughāḥ tve iti hi aśvāḥ tvam vasu deva-yate vaniṣṭhaḥ"
+      ],
+      "metricalData": [
+        "L SS S L SSL L S LS LL LL SSLS SLL L SS LL SSL L SS S LL L SS LSSL SLL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "त्वे ह॒ यत्पि॒तर॑श्चिन्न इन्द्र॒ विश्वा॑ वा॒मा ज॑रि॒तारो॒ अस॑न्वन्",
+        "त्वे गावः॑ सु॒दुघा॒स्त्वे ह्यश्वा॒स्त्वं वसु॑ देवय॒ते वनि॑ष्ठः"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Da ja von dir schon unsere Väter, die Sänger, alles Gute empfingen, o Indra — denn dein sind die gutmelkenden Kühe, dein die Rosse; du bringst dem Gottergebenen am meisten Gut ein."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Wie ja bei dir, o Indra, unsre Väter lobsingend auch erlangten alle Güter; Denn du hast Rosse, milchverseh'ne Kühe; so schenke bestens du dem Frommen Reichthum."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "ALL is with thee, O Indra, all the treasures which erst our fathers won who sang thy praises. With thee are milch-kine good to milk, and horses: best winner thou of riches for the pious."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Раз это у тебя еще отцы наши, о Индра,",
+        "Певцы, все блага получали,",
+        "Так как хорошо доящиеся коровы – твои, кони – твои,",
+        "Ты должен добыть богатства для почитателя богов!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "07.018.01"
+}

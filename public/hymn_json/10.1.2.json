@@ -1,0 +1,530 @@
+{
+  "id": "1000102",
+  "index": 8799,
+  "book": 10,
+  "hymn": 1,
+  "stanza": 2,
+  "hymnAbs": 827,
+  "hymnAddressee": "Agni",
+  "hymnGroup": "Hymns of Trita Aptya",
+  "strata": "S",
+  "lateAdditions": null,
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0207"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/391/mode/1up"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/634/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "sá",
+          "lemma": "sá- ~ tá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sa_9064",
+            "lemma_ta_3606"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "jātáḥ",
+          "lemma": "√janⁱ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jan_3389"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "gárbhaḥ",
+          "lemma": "gárbha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_garBa_2922"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "asi",
+          "lemma": "√as- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_as_1305"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ródasyoḥ",
+          "lemma": "ródasī-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rodasI_7497"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "F",
+            "number": "DU",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "ágne",
+          "lemma": "agní-",
+          "lemmaRefs": [
+            "null",
+            "lemma_agni_79"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "cā́ruḥ",
+          "lemma": "cā́ru-",
+          "lemmaRefs": [
+            "null",
+            "lemma_cAru_3277"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "víbhr̥taḥ",
+          "lemma": "√bhr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Bf_6437"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "local particle": "LP",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "óṣadhīṣu",
+          "lemma": "óṣadhī-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ozaDi_2360"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "citráḥ",
+          "lemma": "citrá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_citra_3294"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "śíśuḥ",
+          "lemma": "śíśu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_SiSu_8796"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "pári",
+          "lemma": "pári",
+          "lemmaRefs": [
+            "null",
+            "lemma_pari_5285"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "támāṃsi",
+          "lemma": "támas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_tamas_3678"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "aktū́n",
+          "lemma": "aktú-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aktu_35"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "prá",
+          "lemma": "prá",
+          "lemmaRefs": [
+            "null",
+            "lemma_pra_5833.1"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "mātŕ̥bhyaḥ",
+          "lemma": "mātár-",
+          "lemmaRefs": [
+            "null",
+            "lemma_mAtf_6775"
+          ],
+          "props": {
+            "case": "ABL",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ádhi",
+          "lemma": "ádhi",
+          "lemmaRefs": [
+            "null",
+            "lemma_aDi_354"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "kánikradat",
+          "lemma": "√krand-",
+          "lemmaRefs": [
+            "null",
+            "lemma_krand_2736"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "tense": "PRS",
+            "voice": "ACT",
+            "non-finite": "PTCP",
+            "secondary conjugation": "INT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "gāḥ",
+          "lemma": "√gā-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gA_2947"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "2",
+            "mood": "INJ",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sá jātó gárbho asi ródasyor",
+        "ágne cā́rur víbhr̥ta óṣadhīṣu",
+        "citráḥ śíśuḥ pári támāṃsy aktū́n",
+        "prá mātŕ̥bhyo ádhi kánikradat gāḥ"
+      ],
+      "metricalData": [
+        "S LL LL SS LLL",
+        "LL LL SSS LSLS",
+        "LL SL SS SL LL",
+        "S LLL SS SLSL L"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sá jātáḥ gárbhaḥ= asi ródasyoḥ",
+        "ágne-_ cā́ruḥ= víbhr̥taḥ óṣadhīṣu",
+        "citráḥ śíśuḥ= pári támāṁsi aktū́n",
+        "prá mātŕ̥bhyaḥ= ádhi kánikradat gāḥ"
+      ],
+      "metricalData": [
+        "S LL LS SS LLL",
+        "LL LL SSS LSLS",
+        "LL SL SS SLS LL",
+        "S LLS SS SLSL L"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sá jātó gárbho asi ródasīyor",
+        "ágne cā́rur víbhr̥ta óṣadhīṣu",
+        "citráḥ śíśuḥ pári támāṁsi aktū́n",
+        "prá mātŕ̥bhyo ádhi kánikradat gāḥ"
+      ],
+      "metricalData": [
+        "S LL LL SS LSLL",
+        "LL LL SSS LSLS",
+        "LL SL SS SLS LL",
+        "S LLL SS SLSL L"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sá jātó gárbho asi ródasyor ágne cā́rur víbhr̥ta óṣadhīṣu",
+        "citráḥ śíśuḥ pári támāṁsy aktū́n prá mātŕ̥bhyo ádhi kánikradat gāḥ"
+      ],
+      "metricalData": [
+        "S LL LL SS LLL LL LL SSS LSLS",
+        "LL SL SS SL LL S LLL SS SLSL L"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "saḥ jātaḥ garbhaḥ asi rodasyoḥ agne cāruḥ vi-bhr̥taḥ oṣadhīṣu citraḥ śiśuḥ pari tamāṁsi aktūn pra mātr̥-bhyaḥ adhi kanikradat gāḥ"
+      ],
+      "metricalData": [
+        "L LL LS SS LLL LL LL SSS LSLS LL SL SS SLS LL S LLS SS SLSL L"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "स जा॒तो गर्भो॑ असि॒ रोद॑स्यो॒रग्ने॒ चारु॒र्विभृ॑त॒ ओष॑धीषु",
+        "चि॒त्रः शिशुः॒ परि॒ तमां॑स्य॒क्तून्प्र मा॒तृभ्यो॒ अधि॒ कनि॑क्रदद्गाः"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Du bist als das Kind der beiden Welten geboren, o Agni, als der Liebling, in den Pflanzen verteilt. Als Wunderkind hast du das Dunkel, die Nächte über(wunden). Brüllend bist du aus deinen Müttern hervorgegangen."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Du bist erzeugt als Spross der beiden Welten, o Agni, schön vertheilt in die Gewächse; Das lichte Füllen kommt durch Nacht und Dunkel von seinen Müttern her und wiehert laut nun."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Thou, being born, art Child of Earth and Heaven, parted among the plants in beauty, Agni! The glooms of night thou, Brilliant Babe, subduest, and art come forth, loud roaring, from thy Mothers."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Tu es né comme l'embryon des deux Mondes, ô Agni, (dieu) plaisant, réparti dans les plantes./ Merveilleux nourrisson, tu as tra(versé) les ténèbres, les nuits; tu t'es avancé (du sein des plantes, tes) mères, en hennissant-avec-force."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Ты рожден как отпрыск двух половин мироздания,",
+        "Как любимец, о Агни, разнесенный среди растений.",
+        "Ослепительное дитя, ты (пре)одолел мрак (и) ночи.",
+        "Громко реви, ты вышел из (своих) матерей."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "10.001.02"
+}

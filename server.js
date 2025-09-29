@@ -2,10 +2,17 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 let fetch;
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+// Enable CORS for all routes
+app.use(cors());
+
+// Serve static files from the public folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.json());
 
@@ -28,11 +35,11 @@ app.post('/fetch-hymn/:hymnId', async (req, res) => {
     const response = await fetch(url);
     if (!response.ok) throw new Error('API error: ' + response.status);
     const data = await response.json();
-    const outDir = path.join(__dirname, 'src', 'data', 'hymn_json');
-    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    const outPath = path.join(outDir, `${hymnId}.json`);
-    fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
-    res.json({ success: true, path: outPath });
+  const outDir = path.join(__dirname, 'public', 'hymn_json');
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+  const outPath = path.join(outDir, `${hymnId}.json`);
+  fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
+  res.json({ success: true, path: outPath });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }

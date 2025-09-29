@@ -1,0 +1,473 @@
+{
+  "id": "0502501",
+  "index": 3809,
+  "book": 5,
+  "hymn": 25,
+  "stanza": 1,
+  "hymnAbs": 379,
+  "hymnAddressee": "Agni",
+  "hymnGroup": "Hymns to Agni",
+  "strata": "A",
+  "lateAdditions": null,
+  "stanzaType": "Aṇuṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0336"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/341/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/311/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "ácha +",
+          "lemma": "ácha",
+          "lemmaRefs": [
+            "null",
+            "lemma_aCa_160"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vaḥ",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "ACC/DAT",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "agním",
+          "lemma": "agní-",
+          "lemmaRefs": [
+            "null",
+            "lemma_agni_79"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "ávase",
+          "lemma": "ávas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_avas_1135"
+          ],
+          "props": {
+            "case": "DAT",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "devám",
+          "lemma": "devá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_deva_4419"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "gāsi",
+          "lemma": "√gā(y)-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gA_2948"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "1",
+            "mood": "INJ",
+            "tense": "AOR",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "sá",
+          "lemma": "sá- ~ tá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sa_9064",
+            "lemma_ta_3606"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "naḥ",
+          "lemma": "ahám",
+          "lemmaRefs": [
+            "null",
+            "lemma_aham_1404"
+          ],
+          "props": {
+            "case": "DAT/GEN",
+            "number": "PL",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "vásuḥ",
+          "lemma": "vásu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vasu_7798"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "rā́sat",
+          "lemma": "√rā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_rA_7355"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "SBJV",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "putráḥ",
+          "lemma": "putrá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_putra_5533"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "r̥ṣūṇā́m",
+          "lemma": "r̥ṣú-",
+          "lemmaRefs": [
+            "null",
+            "lemma_fzu_2264"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M/F/N",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "r̥tā́vā",
+          "lemma": "ŕ̥tāvan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ftAvan_2214"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "parṣati",
+          "lemma": "√pr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_par_5261"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "SBJV",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "dviṣáḥ",
+          "lemma": "dvíṣ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_dviz_4618"
+          ],
+          "props": {
+            "case": "ABL",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áchā vo agním ávase",
+        "deváṃ gāsi sá no vásuḥ",
+        "rā́sat putrá r̥ṣūṇā́m",
+        "r̥tā́vā parṣati dviṣáḥ"
+      ],
+      "metricalData": [
+        "LL L LS SSL",
+        "LL LS S L SL",
+        "LL LS SLL",
+        "SLL LSL SL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ácchā+ vaḥ agním ávase-_",
+        "devám gāsi sá naḥ vásuḥ",
+        "rā́sat putráḥ r̥ṣūṇā́m",
+        "r̥tā́vā parṣati dviṣáḥ"
+      ],
+      "metricalData": [
+        "LL S LS SSL",
+        "LL LS S L SL",
+        "LL LS SLL",
+        "SLL LSL SL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áchā vo agním ávase",
+        "deváṁ gāsi sá no vásuḥ",
+        "rā́sat putrá r̥ṣūṇáam",
+        "r̥tā́vā parṣati dviṣáḥ"
+      ],
+      "metricalData": [
+        "LL L LS SSL",
+        "LL LS S L SL",
+        "LL LS SLSL",
+        "SLL LSL SL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áchā vo agním ávase deváṁ gāsi sá no vásuḥ",
+        "rā́sat putrá r̥ṣūṇā́m r̥tā́vā parṣati dviṣáḥ"
+      ],
+      "metricalData": [
+        "LL L LS SSL LL LS S L SL",
+        "LL LS SLL SLL LSL SL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "accha vaḥ agnim avase devam gāsi saḥ naḥ vasuḥ rāsat putraḥ r̥ṣūṇām r̥ta-vā parṣati dviṣaḥ"
+      ],
+      "metricalData": [
+        "LS S LS SSL LL LS L L SL LL LS SLL SSL LSL SL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "अच्छा॑ वो अ॒ग्निमव॑से दे॒वं गा॑सि॒ स नो॒ वसुः॑",
+        "रास॑त्पु॒त्र ऋ॑षू॒णामृ॒तावा॑ पर्षति द्वि॒षः"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Den Gott Agni will ich euch zur Gnade herbeisingen; er ist unser Guter [Gott]. Der Sohn der Morgenstrahlen möge schenken, der Wahrhafte möge über die Anfeindungen hinüberhelfen."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Ich rufe euren Agni her, den Gott zur Hülfe, der uns liebt; Er spende uns, der Flammen Sohn, der Heil'ge führ uns durch den Feind."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "I WILL sing near, for grace, your God Agni, for he is good to us. Son of the Brands, may he give gifts, and, righteous, save us from the foe."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_oldenberg",
+      "source": "Oldenberg",
+      "language": "eng",
+      "form": [
+        "Address thy song 1 for your sake to the god Agni, for his help. He is our Vasu. May the son of the dawns(?) 2 give us (wealth). May the righteous one help us across our enemies."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Je vais adresser-un-chant [pour vous] au dieu Agni, afin (qu'il nous) favorise: car il est pour nous un Vasu./ Que (nous) fasse des dons le Fils des hautes (flammes); tenant de l'Ordre, qu'il (nous fasse) franchir les hostilités! "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Воспой бога Агни, (чтобы он был)",
+        "Вам на помощь: он для нас добрый.",
+        "Пусть сын языков пламени дарит (нам блага)!",
+        "Верный закону пусть перевозит (нас) через враждебность!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "05.025.01"
+}
