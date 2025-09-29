@@ -40,23 +40,21 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
         className="fixed right-0 top-0 h-full w-96 bg-white shadow-2xl z-50 flex flex-col overflow-hidden"
         style={{ fontFamily: "'Noto Serif', serif" }}
       >
+        {/* Absolute Close Button */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 p-2 bg-white/30 hover:bg-lotus-gold/80 text-lotus-gold rounded-full shadow transition-colors z-10"
+          aria-label="Close Verse Panel"
+        >
+          <X size={24} />
+        </button>
         {/* Header */}
         <div className="sticky top-0 bg-gradient-to-r from-lotus-gold to-lotus-goldDark p-6 text-white flex-shrink-0">
           <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-3">
-              <span className="text-2xl">{deity.symbol}</span>
-              <div>
-                <h2 className="text-xl font-bold">{deity.name}</h2>
-                <p className="text-sm opacity-90">{mandala.name}</p>
-              </div>
+            <div>
+              <h2 className="text-xl font-bold">{deity.name}</h2>
+              <p className="text-sm opacity-90">{mandala.name}</p>
             </div>
-            <button
-              onClick={onClose}
-              className="p-2 hover:bg-white/20 rounded-full transition-colors"
-              aria-label="Close Verse Panel"
-            >
-              <X size={20} />
-            </button>
           </div>
 
           <div className="bg-white/20 rounded-lg p-3">
@@ -194,3 +192,4 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
 };
 
 export default VersePanel;
+

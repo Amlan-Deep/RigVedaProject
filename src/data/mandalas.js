@@ -10,3 +10,4 @@ export const mandalas = [
   { id: 9, name: "Mandala 9", symbol: "🍯", description: "Hymns dedicated to Soma", hymns: 114 },
   { id: 10, name: "Mandala 10", symbol: "🌟", description: "Later hymns and philosophical", hymns: 191 }
 ];
+

@@ -64,3 +64,4 @@ export const deities = [
     color: "#fdcb6e"
   }
 ];
+

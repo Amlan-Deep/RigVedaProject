@@ -7,17 +7,16 @@ import { chordConnections } from '../data/chordConnections';
 
 const LotusChordDiagram = ({ onChordClick, selectedChord }) => {
   const svgRef = useRef();
-  const [dimensions, setDimensions] = useState({ width: 5000, height: 5000 });
+  const [dimensions, setDimensions] = useState({ width: 6300, height: 6300 });
 
   useEffect(() => {
 
     const handleResize = () => {
       const container = svgRef.current?.parentElement;
       if (container) {
-        const availableWidth = container.clientWidth - 32; // Account for padding
-        const availableHeight = container.clientHeight - 32;
-        // Increase size by 50%
-        const size = Math.min(availableWidth, availableHeight, 3600);
+        const availableWidth = (container.clientWidth - 32) * 1.125; // Reduce by 10%
+        const availableHeight = (container.clientHeight - 32) * 1.125;
+        const size = Math.min(availableWidth, availableHeight, 4860); // Reduce max limit by 10%
         setDimensions({ width: size, height: size });
       }
     };
@@ -87,7 +86,7 @@ const LotusChordDiagram = ({ onChordClick, selectedChord }) => {
 
     // Create groups
     const g = svg.append("g")
-      .attr("transform", `translate(${width/2}, ${height/2})`);
+  .attr("transform", `translate(${width/2}, ${height/2 - height * 0.10})`);
 
     // Add gradients
     const defs = svg.append("defs");

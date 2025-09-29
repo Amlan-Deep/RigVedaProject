@@ -62,3 +62,4 @@ export const chordConnections = [
   { mandala: 10, deity: "mitra", count: 12, hymns: ["10.1.5"] },
   { mandala: 10, deity: "surya", count: 10, hymns: ["10.1.6"] }
 ];
+

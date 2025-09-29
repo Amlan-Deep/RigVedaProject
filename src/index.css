@@ -24,8 +24,8 @@
   }
   
   .chord-ribbon:hover {
-    opacity: 1;
-    filter: drop-shadow(0 2px 4px rgba(255, 209, 102, 0.3));
+  opacity: 1;
+  filter: brightness(0.6) drop-shadow(0 2px 4px rgba(255, 209, 102, 0.3));
   }
   
   .mandala-arc {
@@ -44,3 +44,4 @@
     filter: drop-shadow(0 0 8px rgba(255, 209, 102, 0.6));
   }
 }
+

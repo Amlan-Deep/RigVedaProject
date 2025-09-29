@@ -36,3 +36,4 @@ export const hymns = {
     audio: "/audio/1.1.5.mp3"
   }
 };
+

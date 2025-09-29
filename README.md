@@ -101,3 +101,4 @@ MIT License - Feel free to use this project for educational and spiritual purpos
 ---
 
 *"The Rig Veda unfolds like a lotus, revealing the divine connections between heaven and earth."* 🕉️
+

@@ -31,13 +31,14 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#ecd6b0', marginTop: '0' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#ecd6b0', marginTop: '0', height: '120vh', overflow: 'hidden' }}>
       <h1
         style={{
           fontSize: '3rem',
           fontWeight: 'bold',
           marginTop: '0',
           marginBottom: '0',
+          marginRight: '0',
           letterSpacing: '0.05em',
           color: '#7c4700',
           textShadow: '0 2px 8px #f6d88a',
@@ -52,19 +53,21 @@ function App() {
 
       {/* Flex row containing diagram and verse panel */}
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%' }}>
-        <div style={{ position: 'relative', top: '-400px', left: '-400px' }}>
+        <div style={{ position: 'relative', top: '-250px', left: '-250px', width: '75%' }}>
           <LotusChordDiagram
             onChordClick={handleChordClick}
             selectedChord={selectedChord}
           />
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '2rem', fontSize: '1.5rem', fontWeight: 'bold', textAlign: 'center', position: 'relative' }}>
-          <VersePanel
-            isOpen={isVersePanelOpen}
-            onClose={handleCloseVersePanel}
-            selectedData={selectedChord}
-          />
-        </div>
+        {(isVersePanelOpen && selectedChord && selectedChord.connection && selectedChord.connection.hymns && selectedChord.connection.hymns.length > 0) && (
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'left', fontSize: '1.5rem', fontWeight: 'bold', position: 'relative', padding: '2rem', top: '120px', left: '-150px', marginLeft: '1.5rem', background: 'rgba(255, 255, 220, 0.85)', borderRadius: '24px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)', width: '37%', minWidth: '320px', minHeight: '600px', maxHeight: '80vh', overflow: 'auto', textAlign: 'left' }}>
+            <VersePanel
+              isOpen={true}
+              onClose={handleCloseVersePanel}
+              selectedData={selectedChord}
+            />
+          </div>
+        )}
       </div>
 
       {/* Chatbot remains independently rendered */}
