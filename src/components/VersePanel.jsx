@@ -55,16 +55,12 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
     setError(null);
     setCurrentHymn(null);
     try {
-      // Step 1: Ask backend to fetch and save JSON (Vercel API route)
-      const saveRes = await fetch(`/api/fetch-hymn/${hymnId}`, { method: 'POST' });
-      if (!saveRes.ok) throw new Error('Backend failed to save JSON');
-
-      // Step 2: Wait 5 seconds before fetching JSON from public/hymn_json
-      await new Promise(res => setTimeout(res, 5000));
-      const jsonRes = await fetch(`/hymn_json/${hymnId}.json`);
-      if (!jsonRes.ok) throw new Error('Saved JSON not found');
-      const data = await jsonRes.json();
-      setCurrentHymn(data);
+      // Step 1: Ask backend to fetch hymn JSON (Vercel API route)
+      const res = await fetch(`/api/fetch-hymn/${hymnId}`, { method: 'POST' });
+      if (!res.ok) throw new Error('Backend failed to fetch hymn JSON');
+      const result = await res.json();
+      if (!result.success || !result.hymn) throw new Error('No hymn JSON returned');
+      setCurrentHymn(result.hymn);
     } catch (err) {
       setError('Failed to load hymn JSON');
     } finally {

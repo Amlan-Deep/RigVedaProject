@@ -24,12 +24,8 @@ app.post('/fetch-hymn/:hymnId', async (req, res) => {
     const response = await fetch(url);
     if (!response.ok) throw new Error('API error: ' + response.status);
     const data = await response.json();
-    // Save to hymn_json in public folder (one level up from api)
-    const outDir = path.join(__dirname, '..', 'public', 'hymn_json');
-    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    const outPath = path.join(outDir, `${hymnId}.json`);
-    fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
-    res.json({ success: true, path: outPath });
+    // Return the hymn JSON directly
+    res.json({ success: true, hymn: data });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
