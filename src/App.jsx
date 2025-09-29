@@ -3,12 +3,10 @@ import { motion } from 'framer-motion';
 import { MessageCircle, BookOpen, Info } from 'lucide-react';
 import LotusChordDiagram from './components/LotusChordDiagram';
 import VersePanel from './components/VersePanel';
-import Chatbot from './components/Chatbot';
 
 function App() {
   const [selectedChord, setSelectedChord] = useState(null);
   const [isVersePanelOpen, setIsVersePanelOpen] = useState(false);
-  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
 
   const handleChordClick = (data) => {
     setSelectedChord(data);
@@ -22,13 +20,6 @@ function App() {
     setSelectedChord(null);
   };
 
-  const handleOpenChatbot = () => {
-    setIsChatbotOpen(true);
-  };
-
-  const handleCloseChatbot = () => {
-    setIsChatbotOpen(false);
-  };
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#ecd6b0', marginTop: '0', height: '120vh', overflow: 'hidden' }}>
@@ -70,12 +61,7 @@ function App() {
         )}
       </div>
 
-      {/* Chatbot remains independently rendered */}
-      <Chatbot
-        isOpen={isChatbotOpen}
-        onClose={handleCloseChatbot}
-        context={selectedChord}
-      />
+      {/* VersePanel and Diagram only; Chatbot removed for clean deployment */}
     </div>
   );
 }

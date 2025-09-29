@@ -1,7 +1,9 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 module.exports = async (req, res) => {
-  const hymnId = req.query.hymnId;
+  // Vercel dynamic API route: /api/fetch-hymn/[hymnId]
+  const { hymnId } = req.query;
+  if (!hymnId) return res.status(400).json({ success: false, error: 'Missing hymnId' });
   const parts = hymnId.split('.');
   if (parts.length !== 3) return res.status(400).json({ success: false, error: 'Invalid hymnId format' });
   const apiId = parts[0].padStart(2, '0') + parts[1].padStart(3, '0') + parts[2].padStart(2, '0');
