@@ -1,0 +1,342 @@
+{
+  "id": "0900102",
+  "index": 7691,
+  "book": 9,
+  "hymn": 1,
+  "stanza": 2,
+  "hymnAbs": 713,
+  "hymnAddressee": "Soma",
+  "hymnGroup": "Tirasci and Other Poets",
+  "strata": "N",
+  "lateAdditions": null,
+  "stanzaType": "Gāyatrī",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0161"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/337/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "MO",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "rakṣohā́",
+          "lemma": "rakṣohán-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rakzohan_7218"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 2,
+          "form": "viśvácarṣaṇiḥ",
+          "lemma": "viśvácarṣaṇi-",
+          "lemmaRefs": [
+            "null",
+            "lemma_viSvacarzaRI_8159"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "MO",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "abhí",
+          "lemma": "abhí",
+          "lemmaRefs": [
+            "null",
+            "lemma_aBi_765"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "yónim",
+          "lemma": "yóni-",
+          "lemmaRefs": [
+            "null",
+            "lemma_yoni_7193"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "áyohatam",
+          "lemma": "áyohata-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ayohata_952"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "MO",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "drúṇā",
+          "lemma": "dā́ru-",
+          "lemmaRefs": [
+            "null",
+            "lemma_dAru_4199"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "sadhástham",
+          "lemma": "sadhástha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_saDasTa_9245"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ā́",
+          "lemma": "ā́",
+          "lemmaRefs": [
+            "null",
+            "lemma_A_1444"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "asadat",
+          "lemma": "√sad-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sad_9208"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "rakṣohā́ viśvácarṣaṇir",
+        "abhí yónim áyohatam",
+        "drúṇā sadhástham ā́sadat"
+      ],
+      "metricalData": [
+        "LLL LSLSL",
+        "SS LS SLSL",
+        "SL SLS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "rakṣohā́ viśvácarṣaṇiḥ",
+        "abhí yónim áyohatam",
+        "drúṇā sadhástham ā́ asadat"
+      ],
+      "metricalData": [
+        "LLL LSLSL",
+        "SS LS SLSL",
+        "SL SLS L SSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "rakṣohā́ viśvácarṣaṇir",
+        "abhí yónim áyohatam",
+        "drúṇā sadhástham ā́sadat"
+      ],
+      "metricalData": [
+        "LLL LSLSL",
+        "SS LS SLSL",
+        "SL SLS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "rakṣohā́ viśvácarṣaṇir abhí yónim áyohatam",
+        "drúṇā sadhástham ā́sadat"
+      ],
+      "metricalData": [
+        "LLL LSLSS SS LS SLSL",
+        "SL SLS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "rakṣaḥ-hā viśva-carṣaṇiḥ abhi yonim ayaḥ-hatam druṇā sadha-stham ā asadat"
+      ],
+      "metricalData": [
+        "LLL LSLSS SS LS SLSL SL SLS L SSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "र॒क्षो॒हा वि॒श्वच॑र्षणिर॒भि योनि॒मयो॑हतम्",
+        "द्रुणा॑ स॒धस्थ॒मास॑दत्"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Die Unholde tötend, bei allen Völkern bekannt, hat er sich in seine eisenbehauene Wiege, an seinen Platz aus Holz gesetzt. "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Der Menschen schirmt, Gespenster tilgt, liess auf den erzgefügten Schooss Den Sitz sich nieder durch das Holz."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Fiend-queller, Friend of all men, he hath with the wood attained unto His place, his iron-fashioned home."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "(Le soma) qui frappe les démons, (qui s'est répandu) sur tous les peuples, (s'est dirigé) vers (son) séjour-natal façonné par le fer,/ (le récipient) en bois; il s'est installé (ainsi en son) siège. "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Убийца демонов, известный среди всех народов,",
+        "Он сел на (свое) ложе, вытесанное железом,",
+        "На (свое) место из дерева."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "09.001.02"
+}

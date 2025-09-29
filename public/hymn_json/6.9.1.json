@@ -1,0 +1,514 @@
+{
+  "id": "0600901",
+  "index": 4436,
+  "book": 6,
+  "hymn": 9,
+  "stanza": 1,
+  "hymnAbs": 450,
+  "hymnAddressee": "Agni Vaisvanara",
+  "hymnGroup": "Hymns to Agni",
+  "strata": "C",
+  "lateAdditions": [
+    "Arnold (C1)"
+  ],
+  "stanzaType": "Triṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0385"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/350/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "D",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "áhar ~ áhaḥ",
+          "lemma": "áhar ~ áhan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ahan_1401"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "ca",
+          "lemma": "ca",
+          "lemmaRefs": [
+            "null",
+            "lemma_ca_3184"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "kr̥ṣṇám",
+          "lemma": "kr̥ṣṇá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_kfzRa_2691"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "áhar ~ áhaḥ",
+          "lemma": "áhar ~ áhan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ahan_1401"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "árjunam",
+          "lemma": "árjuna-",
+          "lemmaRefs": [
+            "null",
+            "lemma_arjuna_1048",
+            "lemma_arjuna_12105"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "ca",
+          "lemma": "ca",
+          "lemmaRefs": [
+            "null",
+            "lemma_ca_3184"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "D",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "ví",
+          "lemma": "ví",
+          "lemmaRefs": [
+            "null",
+            "lemma_vi_7952"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vartete",
+          "lemma": "√vr̥t-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vft_8361"
+          ],
+          "props": {
+            "number": "DU",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "MED",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "rájasī",
+          "lemma": "rájas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rajas_7235"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "N",
+            "number": "DU",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "vedyā́bhiḥ",
+          "lemma": "vedyā́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vedyA_8467"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "F",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "D",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "vaiśvānaráḥ",
+          "lemma": "vaiśvānará-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vESvAnara_8503"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "jā́yamānaḥ",
+          "lemma": "√janⁱ-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jan_3389"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "tense": "PRS",
+            "voice": "MED",
+            "non-finite": "PTCP",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ná",
+          "lemma": "ná",
+          "lemmaRefs": [
+            "null",
+            "lemma_na_4792"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "rā́jā",
+          "lemma": "rā́jan-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rAjan_7364"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "áva",
+          "lemma": "áva",
+          "lemmaRefs": [
+            "null",
+            "lemma_ava_1101.2"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "atirat",
+          "lemma": "√tr̥̄-",
+          "lemmaRefs": [
+            "null",
+            "lemma_tar_3685"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "IND",
+            "tense": "IPRF",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "jyótiṣā",
+          "lemma": "jyótis-",
+          "lemmaRefs": [
+            "null",
+            "lemma_jyotis_3598"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "agníḥ",
+          "lemma": "agní-",
+          "lemmaRefs": [
+            "null",
+            "lemma_agni_79"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "támāṃsi",
+          "lemma": "támas-",
+          "lemmaRefs": [
+            "null",
+            "lemma_tamas_3678"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áhaś ca kr̥ṣṇám áhar árjunaṃ ca",
+        "ví vartete rájasī vedyā́bhiḥ",
+        "vaiśvānaró jā́yamāno ná rā́jā-",
+        "-ávātiraj jyótiṣāgnís támāṃsi"
+      ],
+      "metricalData": [
+        "SL S LS SS LSL S",
+        "S LLL SSL LLL",
+        "LLSL LSLL S LL",
+        "SLSL LSLL SLS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áhar ca kr̥ṣṇám= áhar árjunam ca",
+        "ví vartete?_= rájasī+_ vedyā́bhiḥ",
+        "vaiśvānaráḥ= jā́yamānaḥ} ná+_ rā́jā",
+        "áva atirat= jyótiṣā agníḥ} támāṁsi"
+      ],
+      "metricalData": [
+        "SL S LS SS LSL S",
+        "S LLL SSL LLL",
+        "LLSL LSLL S LL",
+        "SS SSL LSL LL SLS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áhaś ca kr̥ṣṇám áhar árjunaṁ ca",
+        "ví vartete rájasī vediyā́bhiḥ",
+        "vaiśvānaró jā́yamāno ná rā́jā",
+        "ávātiraj jyótiṣāgnís támāṁsi"
+      ],
+      "metricalData": [
+        "SL S LS SS LSL S",
+        "S LLL SSL LSLL",
+        "LLSL LSLL S LL",
+        "SLSL LSLL SLS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "áhaś ca kr̥ṣṇám áhar árjunaṁ ca ví vartete rájasī vedyā́bhiḥ",
+        "vaiśvānaró jā́yamāno ná rā́jā́vātiraj jyótiṣāgnís támāṁsi"
+      ],
+      "metricalData": [
+        "SL S LS SS LSL S S LLL SSL LLL",
+        "LLSL LSLL S LLLSL LSLL SLS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "ahaḥ ca kr̥ṣṇam ahaḥ arjunam ca vi varteteiti rajasī iti vedyābhiḥ vaiśvānaraḥ jāyamānaḥ na rājā ava atirat jyotiṣā agniḥ tamāṁsi"
+      ],
+      "metricalData": [
+        "SL S LS SS LSL S S LLLSS SSL SS LLL LLSL LSLL S LL SS SSL LSL LL SLS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "अह॑श्च कृ॒ष्णमह॒रर्जु॑नं च॒ वि व॑र्तेते॒ रज॑सी वे॒द्याभिः॑",
+        "वै॒श्वा॒न॒रो जाय॑मानो॒ न राजावा॑तिर॒ज्ज्योति॑षा॒ग्निस्तमां॑सि"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Es drehen sich der schwarze Tag und der helle Tag, (die lichte und) die dunkle Seite mit Vorbedacht. Agni Vaiśvānara überwand, eben geboren, wie ein König mit seinem Lichte die Finsternis."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Es rollen schwarz und weiss die Tageshälften, von selbst der dunkle und der helle Luftraum, Der Männerhort verjagte kaum geboren das Dunkel durch sein Licht, ein König, Agni."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "ONE half of day is dark, and bright the other: both atmospheres move on by sage devices. Agni Vaiṣvânara, when born as Sovran, hath with his lustre overcome the darkness."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Et le jour noir et le jour blanc tournent à tour de rôle, les deux portions de l'espace, savamment./ Le Vaiśvānara Agni en naissant a dominé, comme un roi, les ténèbres par la lumière."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Черный день и светлый день –",
+        "Вращаются два пространства по (своему) разумению.",
+        "Агни-Вайшванара, рождаясь,",
+        "Как царь, преодолел светом мрак."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "06.009.01"
+}

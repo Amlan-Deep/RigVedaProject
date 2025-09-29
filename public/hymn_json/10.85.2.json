@@ -1,0 +1,409 @@
+{
+  "id": "1008502",
+  "index": 9667,
+  "book": 10,
+  "hymn": 85,
+  "stanza": 2,
+  "hymnAbs": 911,
+  "hymnAddressee": "Wedding Hymn",
+  "hymnGroup": "Hymns of Manyu",
+  "strata": "P",
+  "lateAdditions": [
+    "Grassmann (G)",
+    "Arnold (C2)"
+  ],
+  "stanzaType": "Aṇuṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0294"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/394/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "PE3b",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "sómena",
+          "lemma": "sóma-",
+          "lemmaRefs": [
+            "null",
+            "lemma_soma_10160"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "ādityā́ḥ",
+          "lemma": "ādityá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Aditya_1508"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "balínaḥ",
+          "lemma": "balín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_balin_6172"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "PE3b",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "sómena",
+          "lemma": "sóma-",
+          "lemmaRefs": [
+            "null",
+            "lemma_soma_10160"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "pr̥thivī́",
+          "lemma": "pr̥thivī́-",
+          "lemmaRefs": [
+            "null",
+            "lemma_pfTivI_5760"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "mahī́",
+          "lemma": "máh-",
+          "lemmaRefs": [
+            "null",
+            "lemma_mah_6708"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "F",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "PE3b",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "átha",
+          "lemma": "átha",
+          "lemmaRefs": [
+            "null",
+            "lemma_aTa_261"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "u",
+          "lemma": "u",
+          "lemmaRefs": [
+            "null",
+            "lemma_u_1841"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "nákṣatrāṇām",
+          "lemma": "nákṣatra-",
+          "lemmaRefs": [
+            "null",
+            "lemma_nakzatra_4804"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "eṣā́m",
+          "lemma": "ayám",
+          "lemmaRefs": [
+            "null",
+            "lemma_idam_1696"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "N",
+            "number": "PL",
+            "lemma type": "pronoun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "PE3b",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "upásthe",
+          "lemma": "upástha-",
+          "lemmaRefs": [
+            "null",
+            "lemma_upasTa_1988"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "sómaḥ",
+          "lemma": "sóma-",
+          "lemmaRefs": [
+            "null",
+            "lemma_soma_10160"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ā́hitaḥ",
+          "lemma": "√dhā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_DA_4664"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "local particle": "LP",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sómenādityā́ balínaḥ",
+        "sómena pr̥thivī́ mahī́",
+        "átho nákṣatrāṇām eṣā́m",
+        "upásthe sóma ā́hitaḥ"
+      ],
+      "metricalData": [
+        "LLLLL SSL",
+        "LLS SSL SL",
+        "SL LLLL LL",
+        "SLL LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sómena ādityā́ḥ balínaḥ",
+        "sómena pr̥thivī́?_ mahī́-_",
+        "átha u+_ nákṣatrāṇām eṣā́m",
+        "upásthe-_ sómaḥ ā́hitaḥ"
+      ],
+      "metricalData": [
+        "LLS LLL SSL",
+        "LLS SSL SL",
+        "SS S LLLL LL",
+        "SLL LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sómenādityā́ balínaḥ",
+        "sómena pr̥thivī́ mahī́",
+        "átho nákṣatrāṇām eṣā́m",
+        "upásthe sóma ā́hitaḥ"
+      ],
+      "metricalData": [
+        "LLLLL SSL",
+        "LLS SSL SL",
+        "SL LLLL LL",
+        "SLL LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "sómenādityā́ balínaḥ sómena pr̥thivī́ mahī́",
+        "átho nákṣatrāṇām eṣā́m upásthe sóma ā́hitaḥ"
+      ],
+      "metricalData": [
+        "LLLLL SSL LLS SSL SL",
+        "SL LLLL LL SLL LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "somena ādityāḥ balinaḥ somena pr̥thivī mahī atho iti nakṣatrāṇām eṣām upa-sthe somaḥ āhitaḥ"
+      ],
+      "metricalData": [
+        "LLS LLL SSL LLS SSL SL SL SS LLLL LL SLL LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "सोमे॑नादि॒त्या ब॒लिनः॒ सोमे॑न पृथि॒वी म॒ही",
+        "अथो॒ नक्ष॑त्राणामे॒षामु॒पस्थे॒ सोम॒ आहि॑तः"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Durch Soma sind die Āditya's stark, durch Soma ist die Erde groß, und in den Schoß dieser Sternbilder ist Soma (der Mond) gestellt."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Aditja's sind durch Soma stark, durch Soma ist die Erde weit; darum ist Soma hingesetzt in dieser Sterne Mittelpunkt."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "By Soma are the Âdityas strong, by Soma mighty is the earth. Thus Soma in the midst of all these constellations hath his place."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Сомой Адитьи сильны,",
+        "Сомой земля велика.",
+        "И в лоне этих созвездий",
+        "Помещен Сома."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "10.085.02"
+}
