@@ -53,7 +53,7 @@ function App() {
 
       {/* Flex row containing diagram and verse panel */}
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%' }}>
-        <div style={{ position: 'relative', top: '-250px', left: '-250px', width: '75%' }}>
+  <div style={{ position: 'relative', top: '-150px', left: '-250px', width: '75%' }}>
           <LotusChordDiagram
             onChordClick={handleChordClick}
             selectedChord={selectedChord}

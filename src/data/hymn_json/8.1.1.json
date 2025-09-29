@@ -1,0 +1,491 @@
+{
+  "id": "0801001",
+  "index": 6262,
+  "book": 8,
+  "hymn": 10,
+  "stanza": 1,
+  "hymnAbs": 630,
+  "hymnAddressee": "Asvins",
+  "hymnGroup": "Hymns of Vatsa",
+  "strata": "S",
+  "lateAdditions": null,
+  "stanzaType": null,
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1912. Ṛgveda: textkritische und exegetische Noten (2): Siebentes bis zehntes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd2/0095"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/68/mode/1up"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/587/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "stháḥ",
+          "lemma": "√as- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_as_1305"
+          ],
+          "props": {
+            "number": "DU",
+            "person": "2",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "dīrgháprasadmani",
+          "lemma": "dīrgháprasadman-",
+          "lemmaRefs": [
+            "null",
+            "lemma_dIrGaprasadman_4271"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M/F/N",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vā",
+          "lemma": "vā",
+          "lemmaRefs": [
+            "null",
+            "lemma_vA_7845"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "adáḥ ~ adó",
+          "lemma": "asaú",
+          "lemmaRefs": [
+            "null",
+            "lemma_adas_279"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "rocané",
+          "lemma": "rocaná-",
+          "lemmaRefs": [
+            "null",
+            "lemma_rocana_7491"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "diváḥ",
+          "lemma": "dyú- ~ div-",
+          "lemmaRefs": [
+            "null",
+            "lemma_div_4231",
+            "lemma_dyu_4513"
+          ],
+          "props": {
+            "case": "GEN",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "yát",
+          "lemma": "yá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_ya_6983"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "N",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vā",
+          "lemma": "vā",
+          "lemmaRefs": [
+            "null",
+            "lemma_vA_7845"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "samudré",
+          "lemma": "samudrá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_samudra_9399"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "ádhi",
+          "lemma": "ádhi",
+          "lemmaRefs": [
+            "null",
+            "lemma_aDi_354"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 5,
+          "form": "ā́kr̥te",
+          "lemma": "√kr̥-",
+          "lemmaRefs": [
+            "null",
+            "lemma_kf_2645"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "PTCP-ta",
+            "local particle": "LP",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 6,
+          "form": "gr̥hé",
+          "lemma": "gr̥há-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gfha_3023"
+          ],
+          "props": {
+            "case": "LOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "átas",
+          "lemma": "átas",
+          "lemmaRefs": [
+            "null",
+            "lemma_atas_224"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "ā́",
+          "lemma": "ā́",
+          "lemmaRefs": [
+            "null",
+            "lemma_A_1444"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "yātam",
+          "lemma": "√yā- 1",
+          "lemmaRefs": [
+            "null",
+            "lemma_yA_7091"
+          ],
+          "props": {
+            "number": "DU",
+            "person": "2",
+            "mood": "IMP",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "aśvinā",
+          "lemma": "aśvín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_aSvin_1288"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "DU",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "yát sthó dīrgháprasadmani",
+        "yád vādó rocané diváḥ",
+        "yád vā samudré ádhy ā́kr̥te gr̥hé",
+        "-áta ā́ yātam aśvinā"
+      ],
+      "metricalData": [
+        "L L LLSLSS",
+        "L LL LSL SL",
+        "L L SLL L LSL SL",
+        "SS L LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "yát stháḥ dīrgháprasadmani",
+        "yát vā adáḥ rocané-_ diváḥ",
+        "yát vā samudré-_= ádhi ā́kr̥te?_ gr̥hé-_",
+        "átaḥ ā́ yātam aśvinā"
+      ],
+      "metricalData": [
+        "L L LLSLSS",
+        "L L SL LSL SL",
+        "L L SLL SS LSL SL",
+        "SS L LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "yát sthó dīrgháprasadmani",
+        "yád vādó rocané diváḥ",
+        "yád vā samudré ádhi ā́kr̥te gr̥hé",
+        "áta ā́ yātam aśvinā"
+      ],
+      "metricalData": [
+        "L L LLSLSS",
+        "L LL LSL SL",
+        "L L SLL SS LSL SL",
+        "SS L LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "yát sthó dīrgháprasadmani yád vādó rocané diváḥ",
+        "yád vā samudré ádhy ā́kr̥te gr̥hé 'ta ā́ yātam aśvinā"
+      ],
+      "metricalData": [
+        "L L LLSLSS L LL LSL SL",
+        "L L SLL L LSL SL S L LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "yat sthaḥ dīrgha-prasadmani yat vā adaḥ rocane divaḥ yat vā samudre adhi ākr̥te gr̥he ataḥ ā yātam aśvinā"
+      ],
+      "metricalData": [
+        "L L LLSLSS L L SL LSL SL L L SLL SS LSL SL SS L LS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "यत्स्थो दी॒र्घप्र॑सद्मनि॒ यद्वा॒दो रो॑च॒ने दि॒वः",
+        "यद्वा॑ समु॒द्रे अध्याकृ॑ते गृ॒हेऽत॒ आ या॑तमश्विना"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Wenn ihr bei Dīrghaprasadman oder wenn ihr dort im Lichtraum des Himmels, oder wenn ihr auf dem Meere, im hergerichteten Hause seid, so kommt von dort her, o Aśvin! "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Wenn ihr im weiten Erdensitz, wenn dort im Licht des Himmels weilt, Wenn in dem Meer, im Hause, das bereit gemacht, so kommt von dort, o Ritter, her."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "WHETHER ye travel far away or dwell in yonder light of heaven, Or in a mansion that is built above the sea, come thence, ye Aṣvins, hitherward."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Когда вы бываете далеко на земле,",
+        "Или же когда там, в светлом пространстве неба,",
+        "Или же на море в сооруженном доме,",
+        "Приезжайте оттуда, о Ашвины!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "08.010.01"
+}

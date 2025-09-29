@@ -1,0 +1,420 @@
+{
+  "id": "0101001",
+  "index": 90,
+  "book": 1,
+  "hymn": 10,
+  "stanza": 1,
+  "hymnAbs": 10,
+  "hymnAddressee": "Indra",
+  "hymnGroup": "Hymns of Madhucchandas",
+  "strata": "N",
+  "lateAdditions": null,
+  "stanzaType": "Aṇuṣṭubh",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0025"
+      ]
+    },
+    {
+      "label": "Ludwig (1883)",
+      "description": "Ludwig, Alfred. 1883. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Fünfter Band (des Commentars zweiter Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe05ludw/page/8/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "M",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "gā́yanti",
+          "lemma": "√gā(y)-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gA_2948"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "tvā",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "ACC",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "gāyatríṇaḥ",
+          "lemma": "gāyatrín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_gAyatrin_2967"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "M",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "árcanti",
+          "lemma": "√r̥c-",
+          "lemmaRefs": [
+            "null",
+            "lemma_arc_1033"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRS",
+            "voice": "ACT",
+            "lemma type": "root",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "arkám",
+          "lemma": "arká-",
+          "lemmaRefs": [
+            "null",
+            "lemma_arka_1028"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "arkíṇaḥ",
+          "lemma": "arkín-",
+          "lemmaRefs": [
+            "null",
+            "lemma_arkin_1031"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "M",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "brahmā́ṇaḥ",
+          "lemma": "brahmán-",
+          "lemmaRefs": [
+            "null",
+            "lemma_brahman_6269"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "tvā",
+          "lemma": "tvám",
+          "lemmaRefs": [
+            "null",
+            "lemma_tva_3983"
+          ],
+          "props": {
+            "case": "ACC",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "śatakrato",
+          "lemma": "śatákratu-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Satakratu_8592"
+          ],
+          "props": {
+            "case": "VOC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "M",
+      "index": 3,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "út",
+          "lemma": "úd",
+          "lemmaRefs": [
+            "null",
+            "lemma_ud_1892"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "vaṃśám",
+          "lemma": "vaṃśá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vaMSa_7541"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "iva",
+          "lemma": "iva",
+          "lemmaRefs": [
+            "null",
+            "lemma_iva_1775"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 4,
+          "form": "yemire",
+          "lemma": "√yam-",
+          "lemmaRefs": [
+            "null",
+            "lemma_yam_7053"
+          ],
+          "props": {
+            "number": "PL",
+            "person": "3",
+            "mood": "IND",
+            "tense": "PRF",
+            "voice": "MED",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "gā́yanti tvā gāyatríṇaḥ-",
+        "-árcanty arkám arkíṇaḥ",
+        "brahmā́ṇas tvā śatakrato-",
+        "úd vaṃśám iva yemire"
+      ],
+      "metricalData": [
+        "LLL L LLSL",
+        "LL LS LSL",
+        "LLL L SLSL",
+        "L LS SS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "gā́yanti tvā gāyatríṇaḥ",
+        "árcanti arkám arkíṇaḥ",
+        "brahmā́ṇaḥ tvā śatakrato",
+        "út vaṁśám iva yemire-_"
+      ],
+      "metricalData": [
+        "LLL L LLSL",
+        "LLS LS LSL",
+        "LLL L SLSL",
+        "L LS SS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "gā́yanti tvā gāyatríṇo",
+        "árcanti arkám arkíṇaḥ",
+        "brahmā́ṇas tvā śatakrata",
+        "úd vaṁśám iva yemire"
+      ],
+      "metricalData": [
+        "LLL L LLSL",
+        "LLS LS LSL",
+        "LLL L SLSS",
+        "L LS SS LSL"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "gā́yanti tvā gāyatríṇó 'rcanty arkám arkíṇaḥ",
+        "brahmā́ṇas tvā śatakrata úd vaṁśám iva yemire"
+      ],
+      "metricalData": [
+        "LLL L LLSL L LS LSL",
+        "LLL L SLSS L LS SS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "gāyanti tvā gāyatriṇaḥ arcanti arkam arkiṇaḥ brahmāṇaḥ tvā śatakrato itiśata-krato ut vaṁśam-iva yemire"
+      ],
+      "metricalData": [
+        "LLL L LLSS LLS LS LSL LLL L SLSL SSSLSL L LSSS LSL"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "गाय॑न्ति त्वा गाय॒त्रिणोऽर्च॑न्त्य॒र्कम॒र्किणः॑",
+        "ब्र॒ह्माण॑स्त्वा शतक्रत॒ उद्वं॒शमि॑व येमिरे"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Dich besingen die Sänger, die Preisenden stimmen den Preisgesang an. Die Beschwörer haben dich, du Ratreicher, emporgehoben wie einen Dachbalken."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Die Sänger singen dir ein Lied und Preisgesang die preisenden; Die Beter haben dich erhöht wie eine Säule, mächtiger!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "THE chanters hymn thee, they who say the word of praise magnify thee. The priests have raised thee up on high, O Ṣatakratu, like a pole."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Te chantent les tenants de chants-rythmés, les tenants-de-louange chantent la louange,/ les porteurs-de-formule-sacrée t'ont soulevé comme une poutre-faîtière, ô (dieu) aux cent pouvoirs-rituels. "
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Воспевают тебя воспеватели,",
+        "Восхваляют хвалой восхвалители.",
+        "Брахманы тебя, о стосильный,",
+        "Подняли, словно балку (под крышу)."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "01.010.01"
+}

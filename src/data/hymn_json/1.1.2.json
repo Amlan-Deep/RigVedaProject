@@ -1,0 +1,401 @@
+{
+  "id": "0100102",
+  "index": 1,
+  "book": 1,
+  "hymn": 1,
+  "stanza": 2,
+  "hymnAbs": 1,
+  "hymnAddressee": "Agni",
+  "hymnGroup": "Hymns of Madhucchandas",
+  "strata": "N",
+  "lateAdditions": null,
+  "stanzaType": "Gāyatrī",
+  "externalResources": [
+    {
+      "label": "Oldenberg (1909)",
+      "description": "Oldenberg, Hermann. 1909. Ṛgveda: textkritische und exegetische Noten (1): Erstes bis sechstes Buch. Berlin",
+      "references": [
+        "https://digi.ub.uni-heidelberg.de/diglit/oldenberg1909bd1/0013"
+      ]
+    },
+    {
+      "label": "Ludwig (1881)",
+      "description": "Ludwig, Alfred. 1881. Der Rigveda oder die heiligen Hymnen der Brâhmana. Zum ersten Male vollständig ins Deutsche übersetzt mit Commentar und Einleitung von Alfred Ludwig. Vierter Band (des Commentars erster Teil). Prag: Tempsky.",
+      "references": [
+        "https://archive.org/details/rigvedaoderdiehe04ludw/page/247/mode/1up"
+      ]
+    },
+    {
+      "label": "Delbrueck (1888)",
+      "description": "Delbrück, Berthold. 1888. Altindische Syntax (Syntaktische Studien V). Halle: Verlag der Buchhandlung des Waisenhauses.",
+      "references": [
+        "https://archive.org/details/syntaktischefor03windgoog/page/312/mode/1up"
+      ]
+    }
+  ],
+  "padas": [
+    {
+      "id": "a",
+      "label": "MO",
+      "index": 0,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "agníḥ",
+          "lemma": "agní-",
+          "lemmaRefs": [
+            "null",
+            "lemma_agni_79"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "pū́rvebhiḥ",
+          "lemma": "pū́rva-",
+          "lemmaRefs": [
+            "null",
+            "lemma_pUrva_5702"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ŕ̥ṣibhiḥ",
+          "lemma": "ŕ̥ṣi-",
+          "lemmaRefs": [
+            "null",
+            "lemma_fzi_2253"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "MO",
+      "index": 1,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "ī́ḍyaḥ",
+          "lemma": "ī́ḍya-",
+          "lemmaRefs": [
+            "null",
+            "lemma_Iqya_1827"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "non-finite": "GDV",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "nū́tanaiḥ",
+          "lemma": "nū́tana-",
+          "lemmaRefs": [
+            "null",
+            "lemma_nUtana_5082"
+          ],
+          "props": {
+            "case": "INS",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 3,
+          "form": "utá",
+          "lemma": "utá",
+          "lemmaRefs": [
+            "null",
+            "lemma_uta_1879"
+          ],
+          "props": {
+            "lemma type": "invariable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "MO",
+      "index": 2,
+      "grammarData": [
+        {
+          "index": 1,
+          "form": "sá",
+          "lemma": "sá- ~ tá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_sa_9064",
+            "lemma_ta_3606"
+          ],
+          "props": {
+            "case": "NOM",
+            "gender": "M",
+            "number": "SG",
+            "lemma type": "pronoun",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 2,
+          "form": "devā́n",
+          "lemma": "devá-",
+          "lemmaRefs": [
+            "null",
+            "lemma_deva_4419"
+          ],
+          "props": {
+            "case": "ACC",
+            "gender": "M",
+            "number": "PL",
+            "lemma type": "nominal stem",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 3,
+          "form": "ā́",
+          "lemma": "ā́",
+          "lemmaRefs": [
+            "null",
+            "lemma_A_1444"
+          ],
+          "props": {
+            "local particle": "LP",
+            "lemma type": "invariable",
+            "position": "intermediate"
+          }
+        },
+        {
+          "index": 4,
+          "form": "ihá",
+          "lemma": "ihá",
+          "lemmaRefs": [
+            "null",
+            "lemma_iha_1818"
+          ],
+          "props": {
+            "lemma type": "invariable",
+            "position": "verse final"
+          }
+        },
+        {
+          "index": 5,
+          "form": "vakṣati",
+          "lemma": "√vah-",
+          "lemmaRefs": [
+            "null",
+            "lemma_vah_7833"
+          ],
+          "props": {
+            "number": "SG",
+            "person": "3",
+            "mood": "SBJV",
+            "tense": "AOR",
+            "voice": "ACT",
+            "lemma type": "root"
+          }
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_lubotskyzurich",
+      "source": "Lubotsky (Zurich)",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "agníḥ pū́rvebhir ŕ̥ṣibhir",
+        "ī́ḍyo nū́tanair utá",
+        "sá devā́m̐ éhá vakṣati"
+      ],
+      "metricalData": [
+        "LL LLS SSL",
+        "LL LSL SS",
+        "S LL LS LSS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_lubotsky",
+      "source": "Lubotsky",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "agníḥ pū́rvebhiḥ ŕ̥ṣibhiḥ",
+        "ī́ḍyaḥ nū́tanaiḥ utá",
+        "sá devā́n ā́ ihá vakṣati"
+      ],
+      "metricalData": [
+        "LL LLS SSL",
+        "LL LSL SS",
+        "S LL L SS LSS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_vannootenholland",
+      "source": "Van Nooten & Holland",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "agníḥ pū́rvebhir ŕ̥ṣibhir",
+        "ī́ḍiyo nū́tanair utá",
+        "sá devā́m̐ éhá vakṣati"
+      ],
+      "metricalData": [
+        "LL LLS SSL",
+        "LSL LSL SS",
+        "S LL LS LSS"
+      ],
+      "type": "version",
+      "applyKeys": true
+    },
+    {
+      "id": "version_aufrecht",
+      "source": "Aufrecht",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "agníḥ pū́rvebhir ŕ̥ṣibhir ī́ḍyo nū́tanair utá",
+        "sá devā́m̐ éhá vakṣati"
+      ],
+      "metricalData": [
+        "LL LLS SSS LL LSL SS",
+        "S LL LS LSS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_padapatha",
+      "source": "Padapatha",
+      "language": "san-Latn-x-ISO-15919",
+      "form": [
+        "agniḥ pūrvebhiḥ r̥ṣi-bhiḥ īḍyaḥ nūtanaiḥ uta saḥ devān ā iha vakṣati"
+      ],
+      "metricalData": [
+        "LL LLS SSS LL LSL SS L LL L SS LSS"
+      ],
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "version_eichler",
+      "source": "Eichler",
+      "language": "san-Deva",
+      "form": [
+        "अ॒ग्निः पूर्वे॑भि॒र्ऋषि॑भि॒रीड्यो॒ नूत॑नैरु॒त",
+        "स दे॒वाँ एह व॑क्षति"
+      ],
+      "metricalData": null,
+      "type": "version",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_geldner",
+      "source": "Geldner",
+      "language": "deu",
+      "form": [
+        "Agni war von den früheren R̥ṣis und ist von den jüngsten zu berufen; er möge die Götter hierher fahren."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_grassmann",
+      "source": "Graßmann",
+      "language": "deu",
+      "form": [
+        "Der von der alten Sängerschar, von neuen auch zu preisen ist, Die Götter fahr uns Agni her."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_griffith",
+      "source": "Griffith",
+      "language": "eng",
+      "form": [
+        "Worthy is Agni to be praised by living as by ancient seers. He shall bring hitherward the Gods."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_macdonell",
+      "source": "MacDonell",
+      "language": "eng",
+      "form": [
+        "Agni is worthy to be praised, By present as by seers of old: May he to us conduct the gods."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_oldenberg",
+      "source": "Oldenberg",
+      "language": "eng",
+      "form": [
+        "Agni, worthy to be magnified by the ancient Rishis and by the present ones — may he conduct the gods hither."
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_renou",
+      "source": "Renou",
+      "language": "fra",
+      "form": [
+        "Agni est digne d'être invoqué par les Prophètes antiques ainsi que par ceux de maintenant:/ qu'il convoie les dieux ici!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": false
+    },
+    {
+      "id": "translation_elizarenkova",
+      "source": "Elizarenkova",
+      "language": "rus",
+      "form": [
+        "Агни достоин призываний риши –",
+        "Как прежних, так и нынешних:",
+        "Да привезет он сюда богов!"
+      ],
+      "metricalData": null,
+      "type": "translation",
+      "applyKeys": true
+    }
+  ],
+  "location": "01.001.02"
+}

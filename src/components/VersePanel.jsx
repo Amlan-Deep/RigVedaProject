@@ -1,14 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Play, Pause, Volume2, MessageCircle, BookOpen } from 'lucide-react';
-import { hymns } from '../data/hymns';
+import { fetchHymnsByDeityMandala } from '../data/hymns';
 
 const VersePanel = ({ isOpen, onClose, selectedData }) => {
   const [currentHymn, setCurrentHymn] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioRef, setAudioRef] = useState(null);
+  const [hymns, setHymns] = useState({});
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  // Remove auto-select of first hymn
+  useEffect(() => {
+    setHymns([]);
+    setCurrentHymn(null);
+    setIsPlaying(false);
+  }, [isOpen, selectedData]);
+
+  const fetchAndShowAllHymns = async () => {
+    if (!selectedData) return;
+    const { deity, mandala } = selectedData;
+    setLoading(true);
+    setError(null);
+    try {
+      const data = await fetchHymnsByDeityMandala(deity.key || deity.name.toLowerCase(), mandala.key || mandala.name);
+      setHymns(data);
+    } catch (err) {
+      setError('Failed to load hymns');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handlePlayPause = () => {
     if (audioRef) {
@@ -71,15 +93,38 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
             </h3>
             <div className="grid grid-cols-2 gap-2">
               <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', gap: '1rem', justifyContent: 'flex-start', alignItems: 'center', marginBottom: '1rem' }}>
-                {connection.hymns.map((hymnId) => (
+                {loading && <span className="text-gray-500">Loading...</span>}
+                {error && <span className="text-red-500">{error}</span>}
+                {/* Debug output for fetched hymns */}
+                {!loading && !error && (
+                  <pre style={{ fontSize: '0.7rem', color: '#888', marginBottom: '0.5rem' }}>
+                    Hymns fetched: {JSON.stringify(Object.keys(hymns))}
+                  </pre>
+                )}
+                {!loading && !error && connection.hymns.map((hymnId) => (
                   <button
                     key={hymnId}
-                    onClick={() => handleHymnSelect(hymnId)}
-                    className={`transition-colors flex items-center justify-center tracking-wide ${
-                      currentHymn && hymns[hymnId] === currentHymn
-                        ? 'bg-lotus-gold text-white border-lotus-goldDark scale-105'
-                        : 'bg-white hover:bg-lotus-gold/20 text-lotus-gold'
-                    }`}
+                    onClick={async () => {
+                      setLoading(true);
+                      setError(null);
+                      try {
+                        const res = await fetch(`http://localhost:3001/fetch-hymn/${hymnId}`, {
+                          method: 'POST',
+                        });
+                        const result = await res.json();
+                        if (result.success) {
+                          setError(null);
+                          alert(`Hymn ${hymnId} saved as JSON!`);
+                        } else {
+                          setError(result.error || 'Failed to save hymn');
+                        }
+                      } catch (err) {
+                        setError('Failed to connect to backend');
+                      } finally {
+                        setLoading(false);
+                      }
+                    }}
+                    className="transition-colors flex items-center justify-center tracking-wide bg-white hover:bg-lotus-gold/20 text-lotus-gold"
                     style={{
                       padding: '1rem 1.75rem',
                       borderRadius: '1rem',
@@ -99,73 +144,80 @@ const VersePanel = ({ isOpen, onClose, selectedData }) => {
             </div>
           </div>
 
-          {/* Current Hymn Details */}
-          {currentHymn && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="space-y-4"
-            >
-              {/* Sanskrit */}
-              <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Sanskrit</h4>
-                <p className="text-lg leading-relaxed text-gray-800 font-serif">
-                  {currentHymn.sanskrit}
-                </p>
-              </div>
-
-              {/* Transliteration */}
-              <div className="bg-gray-50 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Transliteration</h4>
-                <p className="text-sm leading-relaxed text-gray-700 italic">
-                  {currentHymn.transliteration}
-                </p>
-              </div>
-
-              {/* Translation */}
-              <div className="bg-gradient-to-r from-lotus-gold/10 to-lotus-saffron/10 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Translation</h4>
-                <p className="text-sm leading-relaxed text-gray-800">
-                  {currentHymn.translation}
-                </p>
-              </div>
-
-              {/* Meaning */}
-              <div className="bg-blue-50 rounded-lg p-4">
-                <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Meaning</h4>
-                <p className="text-sm leading-relaxed text-gray-700">
-                  {currentHymn.meaning}
-                </p>
-              </div>
-
-              {/* Audio Player */}
-              <div className="bg-gradient-to-r from-lotus-purple/20 to-lotus-pink/20 rounded-lg p-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-3">
-                    <button
-                      onClick={handlePlayPause}
-                      className="p-3 bg-lotus-gold hover:bg-lotus-goldDark text-white rounded-full transition-colors"
-                      aria-label={isPlaying ? 'Pause Audio' : 'Play Audio'}
-                    >
-                      {isPlaying ? <Pause size={16} /> : <Play size={16} />}
-                    </button>
-                    <div>
-                      <p className="font-medium text-gray-800">Chant Audio</p>
-                      <p className="text-xs text-gray-600">Traditional Vedic recitation</p>
-                    </div>
+          {/* All Hymns Details */}
+          {!loading && !error && Array.isArray(hymns) && hymns.length > 0 && (
+            <div className="space-y-8">
+              {hymns.map((hymn, idx) => (
+                <motion.div
+                  key={hymn.hymnId || hymn.id || idx}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="space-y-4"
+                >
+                  {/* Sanskrit */}
+                  <div className="bg-gradient-to-r from-lotus-purple/10 to-lotus-pink/10 rounded-lg p-4">
+                    <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Sanskrit</h4>
+                    <p className="text-lg leading-relaxed text-gray-800 font-serif">
+                      {hymn.sanskrit}
+                    </p>
                   </div>
-                  <Volume2 size={20} className="text-lotus-purple" />
-                </div>
 
-                <audio
-                  ref={setAudioRef}
-                  src={currentHymn.audio}
-                  onEnded={() => setIsPlaying(false)}
-                  onPlay={() => setIsPlaying(true)}
-                  onPause={() => setIsPlaying(false)}
-                />
-              </div>
-            </motion.div>
+                  {/* Transliteration */}
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Transliteration</h4>
+                    <p className="text-sm leading-relaxed text-gray-700 italic">
+                      {hymn.transliteration}
+                    </p>
+                  </div>
+
+                  {/* Translation */}
+                  <div className="bg-gradient-to-r from-lotus-gold/10 to-lotus-saffron/10 rounded-lg p-4">
+                    <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Translation</h4>
+                    <p className="text-sm leading-relaxed text-gray-800">
+                      {hymn.translation}
+                    </p>
+                  </div>
+
+                  {/* Meaning */}
+                  <div className="bg-blue-50 rounded-lg p-4">
+                    <h4 className="font-semibold text-lotus-indigo mb-2" style={{ textDecoration: 'underline' }}>Meaning</h4>
+                    <p className="text-sm leading-relaxed text-gray-700">
+                      {hymn.meaning}
+                    </p>
+                  </div>
+
+                  {/* Audio Player */}
+                  {hymn.audio && (
+                    <div className="bg-gradient-to-r from-lotus-purple/20 to-lotus-pink/20 rounded-lg p-4">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center space-x-3">
+                          <button
+                            onClick={handlePlayPause}
+                            className="p-3 bg-lotus-gold hover:bg-lotus-goldDark text-white rounded-full transition-colors"
+                            aria-label={isPlaying ? 'Pause Audio' : 'Play Audio'}
+                          >
+                            {isPlaying ? <Pause size={16} /> : <Play size={16} />}
+                          </button>
+                          <div>
+                            <p className="font-medium text-gray-800">Chant Audio</p>
+                            <p className="text-xs text-gray-600">Traditional Vedic recitation</p>
+                          </div>
+                        </div>
+                        <Volume2 size={20} className="text-lotus-purple" />
+                      </div>
+
+                      <audio
+                        ref={setAudioRef}
+                        src={hymn.audio}
+                        onEnded={() => setIsPlaying(false)}
+                        onPlay={() => setIsPlaying(true)}
+                        onPause={() => setIsPlaying(false)}
+                      />
+                    </div>
+                  )}
+                </motion.div>
+              ))}
+            </div>
           )}
 
           {/* Chatbot Integration */}
