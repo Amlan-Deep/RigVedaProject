@@ -42,40 +42,16 @@ function App() {
         Rig Veda Chakra
       </h1>
 
-      {/* Flex row containing diagram and verse panel with responsive layout */}
-      <div style={{
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'flex-start',
-        width: '100%',
-        flexWrap: 'wrap', // allow wrapping on small screens
-        gap: '2rem' // gap helps prevent overlap
-      }}>
-        <div style={{
-          flex: '1 1 500px',    // grow and shrink as needed, min width 500px
-          minWidth: '350px',
-          maxWidth: '900px',
-          marginBottom: '2rem'
-        }}>
+      {/* Flex row containing diagram and verse panel */}
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%' }}>
+        <div style={{ position: 'relative', top: '-150px', left: '-250px', width: '75%' }}>
           <LotusChordDiagram
             onChordClick={handleChordClick}
             selectedChord={selectedChord}
           />
         </div>
-        {(isVersePanelOpen && selectedChord?.connection?.hymns?.length > 0) && (
-          <div style={{
-            flex: '1 1 350px', // dynamically grows/shrinks
-            minWidth: '300px',
-            maxWidth: '540px',
-            padding: '2rem',
-            background: 'rgba(255, 255, 220, 0.85)',
-            borderRadius: '24px',
-            boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
-            marginBottom: '2rem',
-            overflow: 'auto',
-            textAlign: 'left',
-            fontSize: '1.1rem' // scale down a bit for mobile
-          }}>
+        {(isVersePanelOpen && selectedChord && selectedChord.connection && selectedChord.connection.hymns && selectedChord.connection.hymns.length > 0) && (
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'left', fontSize: '1.5rem', fontWeight: 'bold', position: 'relative', padding: '2rem', top: '120px', left: '-150px', marginLeft: '1.5rem', background: 'rgba(255, 255, 220, 0.85)', borderRadius: '24px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)', width: '37%', minWidth: '320px', minHeight: '600px', maxHeight: '80vh', overflow: 'auto', textAlign: 'left' }}>
             <VersePanel
               isOpen={true}
               onClose={handleCloseVersePanel}
