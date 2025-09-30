@@ -43,15 +43,73 @@ function App() {
       </h1>
 
       {/* Flex row containing diagram and verse panel */}
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%' }}>
-  <div style={{ position: 'relative', top: '-150px', left: '-250px', width: '75%' }}>
-          <LotusChordDiagram
-            onChordClick={handleChordClick}
-            selectedChord={selectedChord}
-          />
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'flex-start',
+          width: '100%',
+          flexWrap: 'wrap',
+        }}
+      >
+        <div
+          style={{
+            position: 'relative',
+            top: '0',
+            left: '0',
+            width: '100%',
+            maxWidth: '900px',
+            margin: '0 auto',
+            marginTop: '2.5rem',
+            marginBottom: '2rem',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div
+            style={{
+              width: '100%',
+              maxWidth: '700px',
+              minWidth: '320px',
+              height: 'auto',
+              minHeight: '500px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <LotusChordDiagram
+              onChordClick={handleChordClick}
+              selectedChord={selectedChord}
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
         </div>
         {(isVersePanelOpen && selectedChord && selectedChord.connection && selectedChord.connection.hymns && selectedChord.connection.hymns.length > 0) && (
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'left', fontSize: '1.5rem', fontWeight: 'bold', position: 'relative', padding: '2rem', top: '120px', left: '-150px', marginLeft: '1.5rem', background: 'rgba(255, 255, 220, 0.85)', borderRadius: '24px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)', width: '37%', minWidth: '320px', minHeight: '600px', maxHeight: '80vh', overflow: 'auto', textAlign: 'left' }}>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-start',
+              alignItems: 'left',
+              fontSize: '1.5rem',
+              fontWeight: 'bold',
+              position: 'relative',
+              padding: '2rem',
+              marginLeft: '1.5rem',
+              background: 'rgba(255, 255, 220, 0.85)',
+              borderRadius: '24px',
+              boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+              width: '37%',
+              minWidth: '320px',
+              minHeight: '600px',
+              maxHeight: '80vh',
+              overflow: 'auto',
+              textAlign: 'left',
+              marginTop: '2.5rem',
+            }}
+          >
             <VersePanel
               isOpen={true}
               onClose={handleCloseVersePanel}
