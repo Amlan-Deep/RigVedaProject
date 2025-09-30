@@ -171,7 +171,7 @@ const LotusChordDiagram = ({ onChordClick, selectedChord }) => {
       })
       .attr("text-anchor", "middle")
       .attr("dy", "0.35em")
-      .style("font-size", "18px")
+  .style("font-size", "15px")
       .style("fill", "#8b4513")
       .style("font-weight", "bold")
       .style("font-family", "Inter, sans-serif")
